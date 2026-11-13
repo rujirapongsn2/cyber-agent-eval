@@ -1,0 +1,22 @@
+{
+  "_note": "Every event has one canonical UTC instant, rendered per source in its native convention. Whole org runs Asia/Bangkok (ICT, UTC+07, no DST).",
+  "dst": false,
+  "org_timezone": "Asia/Bangkok",
+  "org_utc_offset": "+07:00",
+  "sources": {
+    "auditd": "UTC epoch seconds (msg=audit(epoch:id))",
+    "bind": "server LOCAL time (ICT), milliseconds",
+    "checkpoint_cef": "rt=UTC epoch ms; syslog header ISO8601 with +07:00",
+    "docker_json": "UTC, RFC3339 nanoseconds with 'Z'",
+    "f5_asm": "device LOCAL time (ICT)",
+    "fortigate": "date=/time= device LOCAL; tz=+0700; eventtime=UTC epoch ns",
+    "kubernetes_audit": "UTC, RFC3339 microseconds with 'Z'",
+    "linux_syslog_rfc3164": "host LOCAL time (ICT), no offset shown",
+    "linux_syslog_rfc5424": "LOCAL time with numeric offset +07:00",
+    "panos": "device LOCAL time (ICT), no offset in field or header",
+    "squid": "UTC epoch seconds.milliseconds",
+    "sysmon_utctime_field": "UTC, 'YYYY-MM-DD HH:MM:SS.mmm'",
+    "windows_dns_debug": "server LOCAL time (ICT), M/D/YYYY h:mm:ss",
+    "windows_event_xml": "UTC, ISO8601 with 'Z' (TimeCreated SystemTime)"
+  }
+}

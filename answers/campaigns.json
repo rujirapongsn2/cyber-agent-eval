@@ -1,0 +1,233 @@
+[
+  {
+    "campaign_id": "CMP-001",
+    "description_th": "แคมเปญหลัก: เข้าถึงผ่านฟิชชิ่งที่ WKS-FIN-07 วาง persistence ดัมพ์ credential เคลื่อนที่ด้านข้างไป SRV-FILE01 ขโมยข้อมูลแล้วปล่อยแรนซัมแวร์",
+    "name_th": "Phishing สู่ Ransomware บน WKS-FIN-07 → SRV-FILE01",
+    "num_stages": 9,
+    "stages": [
+      {
+        "case_id": "CAE-0008",
+        "host": "WKS-FIN-07",
+        "name_th": "Initial Access / Execution",
+        "stage": 1,
+        "techniques": [
+          "T1059.001",
+          "T1105",
+          "T1204.002",
+          "T1566.001"
+        ]
+      },
+      {
+        "case_id": "CAE-0050",
+        "host": "WKS-FIN-07",
+        "name_th": "Command and Control",
+        "stage": 2,
+        "techniques": [
+          "T1071.001"
+        ]
+      },
+      {
+        "case_id": "CAE-0063",
+        "host": "WKS-FIN-07",
+        "name_th": "Persistence (Scheduled Task)",
+        "stage": 3,
+        "techniques": [
+          "T1053.005"
+        ]
+      },
+      {
+        "case_id": "CAE-0011",
+        "host": "WKS-FIN-07",
+        "name_th": "Credential Access",
+        "stage": 4,
+        "techniques": [
+          "T1003.001"
+        ]
+      },
+      {
+        "case_id": "CAE-0066",
+        "host": "WKS-FIN-07",
+        "name_th": "Discovery",
+        "stage": 5,
+        "techniques": [
+          "T1069.002"
+        ]
+      },
+      {
+        "case_id": "CAE-0036",
+        "host": "SRV-FILE01",
+        "name_th": "Lateral Movement",
+        "stage": 6,
+        "techniques": [
+          "T1021.002",
+          "T1078.002"
+        ]
+      },
+      {
+        "case_id": "CAE-0047",
+        "host": "SRV-FILE01",
+        "name_th": "Collection / Staging",
+        "stage": 7,
+        "techniques": [
+          "T1074.001",
+          "T1560.001"
+        ]
+      },
+      {
+        "case_id": "CAE-0054",
+        "host": "SRV-FILE01",
+        "name_th": "Exfiltration",
+        "stage": 8,
+        "techniques": [
+          "T1567.002"
+        ]
+      },
+      {
+        "case_id": "CAE-0049",
+        "host": "SRV-FILE01",
+        "name_th": "Impact (Ransomware)",
+        "stage": 9,
+        "techniques": [
+          "T1486",
+          "T1490"
+        ]
+      }
+    ]
+  },
+  {
+    "campaign_id": "CMP-002",
+    "description_th": "โจมตีแอปพลิเคชันสาธารณะบน SRV-WEB01 วาง web shell และเปิด reverse shell",
+    "name_th": "การยึดเว็บเซิร์ฟเวอร์ DMZ (SRV-WEB01)",
+    "num_stages": 4,
+    "stages": [
+      {
+        "case_id": "CAE-0064",
+        "host": "SRV-WEB01",
+        "name_th": "Initial Access",
+        "stage": 1,
+        "techniques": [
+          "T1190"
+        ]
+      },
+      {
+        "case_id": "CAE-0027",
+        "host": "SRV-WEB01",
+        "name_th": "Persistence (Web Shell)",
+        "stage": 2,
+        "techniques": [
+          "T1505.003"
+        ]
+      },
+      {
+        "case_id": "CAE-0072",
+        "host": "SRV-WEB01",
+        "name_th": "Execution / Discovery",
+        "stage": 3,
+        "techniques": [
+          "T1033",
+          "T1059.003"
+        ]
+      },
+      {
+        "case_id": "CAE-0021",
+        "host": "SRV-WEB01",
+        "name_th": "Command and Control",
+        "stage": 4,
+        "techniques": [
+          "T1059.001",
+          "T1095"
+        ]
+      }
+    ]
+  },
+  {
+    "campaign_id": "CMP-003",
+    "description_th": "SSH brute-force เข้า lnx-web01 ดาวน์โหลดเครื่องมือ ตั้ง cron และ exfiltrate",
+    "name_th": "การบุกรุกเซิร์ฟเวอร์ Linux (lnx-web01)",
+    "num_stages": 4,
+    "stages": [
+      {
+        "case_id": "CAE-0058",
+        "host": "lnx-web01",
+        "name_th": "Initial Access",
+        "stage": 1,
+        "techniques": [
+          "T1110.001"
+        ]
+      },
+      {
+        "case_id": "CAE-0030",
+        "host": "lnx-web01",
+        "name_th": "Execution / Ingress Tool Transfer",
+        "stage": 2,
+        "techniques": [
+          "T1059.004",
+          "T1105"
+        ]
+      },
+      {
+        "case_id": "CAE-0012",
+        "host": "lnx-web01",
+        "name_th": "Persistence (Cron)",
+        "stage": 3,
+        "techniques": [
+          "T1053.003"
+        ]
+      },
+      {
+        "case_id": "CAE-0004",
+        "host": "lnx-web01",
+        "name_th": "Exfiltration",
+        "stage": 4,
+        "techniques": [
+          "T1048.002"
+        ]
+      }
+    ]
+  },
+  {
+    "campaign_id": "CMP-004",
+    "description_th": "reverse shell บน WKS-DEV-11 ใช้ credential ของ svc_sql ส่งออกฐานข้อมูลและ exfiltrate นอกเวลางาน",
+    "name_th": "ยึดเครื่องนักพัฒนาแล้วขโมยข้อมูลด้วยบัญชีบริการ (WKS-DEV-11 → SRV-SQL01)",
+    "num_stages": 4,
+    "stages": [
+      {
+        "case_id": "CAE-0006",
+        "host": "WKS-DEV-11",
+        "name_th": "Execution / Command and Control",
+        "stage": 1,
+        "techniques": [
+          "T1059.001",
+          "T1095"
+        ]
+      },
+      {
+        "case_id": "CAE-0018",
+        "host": "SRV-SQL01",
+        "name_th": "Valid Accounts",
+        "stage": 2,
+        "techniques": [
+          "T1078.002"
+        ]
+      },
+      {
+        "case_id": "CAE-0017",
+        "host": "SRV-SQL01",
+        "name_th": "Collection",
+        "stage": 3,
+        "techniques": [
+          "T1005"
+        ]
+      },
+      {
+        "case_id": "CAE-0057",
+        "host": "SRV-SQL01",
+        "name_th": "Exfiltration",
+        "stage": 4,
+        "techniques": [
+          "T1567.002"
+        ]
+      }
+    ]
+  }
+]

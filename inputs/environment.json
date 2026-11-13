@@ -1,0 +1,913 @@
+{
+  "approved_pentest_source_ips": [
+    "198.51.100.184"
+  ],
+  "change_calendar": [
+    {
+      "end_local": "2026-11-09 15:35",
+      "hosts": [
+        "SRV-RDS01"
+      ],
+      "id": "SR-2611-0457",
+      "kind": "service_request",
+      "start_local": "2026-11-09 14:57",
+      "summary_th": "helpdesk รีเซ็ตรหัสผ่านให้ opas (รหัสผ่านหมดอายุ ทำงานจากบ้านผ่าน SRV-RDS01) ตามคำขอ SR-2611-0457"
+    },
+    {
+      "end_local": "2026-11-10 00:00",
+      "hosts": [
+        "SRV-APP01"
+      ],
+      "id": "CHG-2611-0701",
+      "kind": "change",
+      "start_local": "2026-11-09 22:00",
+      "summary_th": "อัปเดต .NET runtime บน SRV-APP01"
+    },
+    {
+      "end_local": "2026-11-10 02:30",
+      "hosts": [
+        "WKS-GEN-008",
+        "WKS-GEN-009"
+      ],
+      "id": "CHG-2611-0102",
+      "kind": "change",
+      "start_local": "2026-11-10 00:15",
+      "summary_th": "SCCM patch rollout (deployment CM00457, wuaupatch.exe จาก ccmcache) หน้าต่าง maintenance"
+    },
+    {
+      "end_local": "2026-11-10 04:00",
+      "hosts": [
+        "k8s-cp01",
+        "k8s-node01",
+        "k8s-node02"
+      ],
+      "id": "CHG-2611-0230",
+      "kind": "change",
+      "start_local": "2026-11-10 02:00",
+      "summary_th": "อัปเกรด node pool คลัสเตอร์ dev"
+    },
+    {
+      "end_local": "2026-11-10 09:05",
+      "hosts": [
+        "SRV-WEB02"
+      ],
+      "id": "CHG-2611-1415",
+      "kind": "change",
+      "start_local": "2026-11-10 07:50",
+      "summary_th": "release partner portal v3.8 บน SRV-WEB02 ผ่าน Web Deploy (MsDepSvc) จาก JUMP01 ด้วย svc_deploy"
+    },
+    {
+      "end_local": "2026-11-10 19:14",
+      "hosts": [
+        "WKS-GEN-029"
+      ],
+      "id": "CHG-2611-1310",
+      "kind": "change",
+      "start_local": "2026-11-10 16:34",
+      "summary_th": "re-image เครื่องทดสอบ WKS-GEN-029 (ล้าง event log ก่อนส่งคืน) โดย adm_kitti"
+    },
+    {
+      "end_local": "2026-11-11 02:37",
+      "hosts": [
+        "SRV-MON01",
+        "SRV-SQL01"
+      ],
+      "id": "CHG-2611-0977",
+      "kind": "change",
+      "start_local": "2026-11-11 01:07",
+      "summary_th": "หมุนรหัสผ่านบัญชีบริการ svc_monitor (password rotation) — probe ตรวจสุขภาพ SQL ต้องอัปเดต credential หลังเปลี่ยน"
+    },
+    {
+      "end_local": "2026-11-11 22:00",
+      "hosts": [
+        "FGT-EDGE-01"
+      ],
+      "id": "CHG-2611-1120",
+      "kind": "change",
+      "start_local": "2026-11-11 20:00",
+      "summary_th": "ปรับ firewall policy ขาออก (เพิ่ม allow สำหรับ partner API)"
+    },
+    {
+      "end_local": "2026-11-12 05:58",
+      "hosts": [
+        "VULNSCAN01",
+        "SRV-SQL01",
+        "SRV-FILE01",
+        "SRV-APP01"
+      ],
+      "id": "CHG-2611-0815",
+      "kind": "scan_window",
+      "start_local": "2026-11-12 02:53",
+      "summary_th": "หน้าต่างสแกนช่องโหว่ประจำเดือนจาก VULNSCAN01 (บัญชี scan_svc) ไปยังเซิร์ฟเวอร์ภายใน อนุมัติโดย secops"
+    },
+    {
+      "end_local": "2026-11-12 13:32",
+      "hosts": [
+        "WKS-GEN-027"
+      ],
+      "id": "SR-2611-0310",
+      "kind": "service_request",
+      "start_local": "2026-11-12 12:32",
+      "summary_th": "helpdesk ทดสอบการทำงานของ AV/UTM ด้วยไฟล์ทดสอบมาตรฐาน EICAR ตามคำขอ SR-2611-0310"
+    },
+    {
+      "end_local": "2026-11-12 15:00",
+      "hosts": [
+        "SRV-SQL01"
+      ],
+      "id": "CHG-2611-0905",
+      "kind": "change",
+      "start_local": "2026-11-12 13:00",
+      "summary_th": "เพิ่มดิสก์ log ให้ SRV-SQL01"
+    },
+    {
+      "end_local": "2026-11-12 18:11",
+      "hosts": [
+        "SRV-FILE01"
+      ],
+      "id": "CHG-2611-1042",
+      "kind": "change",
+      "start_local": "2026-11-12 15:51",
+      "summary_th": "ติดตั้งแพตช์ KB5039xxx บน SRV-FILE01 ผ่าน PsExec จาก JUMP01 โดย adm_kitti"
+    },
+    {
+      "end_local": "2026-11-12 20:56",
+      "hosts": [
+        "SRV-WEB01"
+      ],
+      "id": "PT-2611-01",
+      "kind": "pentest",
+      "start_local": "2026-11-12 16:26",
+      "summary_th": "External penetration test (ผู้ให้บริการภายนอก, source IP 198.51.100.184) ต่อ SRV-WEB01 อนุมัติโดย CISO"
+    }
+  ],
+  "domain": {
+    "dns_suffix": "corp.example",
+    "domain_sid": "S-1-5-21-1835023452-1944211108-3039928884",
+    "netbios": "CORP"
+  },
+  "dst": false,
+  "hosts": {
+    "JUMP01": {
+      "fqdn": "jump01.corp.example",
+      "ip": "10.20.50.11",
+      "os": "windows",
+      "role": "infra"
+    },
+    "SRV-APP01": {
+      "fqdn": "srv-app01.corp.example",
+      "ip": "10.20.30.41",
+      "os": "windows",
+      "role": "srv"
+    },
+    "SRV-BACKUP01": {
+      "fqdn": "srv-backup01.corp.example",
+      "ip": "10.20.50.31",
+      "os": "windows",
+      "role": "infra"
+    },
+    "SRV-DC01": {
+      "fqdn": "srv-dc01.corp.example",
+      "ip": "10.20.30.10",
+      "os": "windows",
+      "role": "srv"
+    },
+    "SRV-FILE01": {
+      "fqdn": "srv-file01.corp.example",
+      "ip": "10.20.30.21",
+      "os": "windows",
+      "role": "srv"
+    },
+    "SRV-MAIL01": {
+      "fqdn": "srv-mail01.corp.example",
+      "ip": "10.20.30.25",
+      "os": "windows",
+      "role": "srv"
+    },
+    "SRV-MON01": {
+      "fqdn": "srv-mon01.corp.example",
+      "ip": "10.20.50.51",
+      "os": "windows",
+      "role": "infra"
+    },
+    "SRV-RDS01": {
+      "fqdn": "srv-rds01.corp.example",
+      "ip": "10.20.40.31",
+      "os": "windows",
+      "role": "dmz"
+    },
+    "SRV-SCCM01": {
+      "fqdn": "srv-sccm01.corp.example",
+      "ip": "10.20.50.21",
+      "os": "windows",
+      "role": "infra"
+    },
+    "SRV-SQL01": {
+      "fqdn": "srv-sql01.corp.example",
+      "ip": "10.20.30.31",
+      "os": "windows",
+      "role": "srv"
+    },
+    "SRV-WEB01": {
+      "fqdn": "srv-web01.corp.example",
+      "ip": "10.20.40.21",
+      "os": "windows",
+      "role": "dmz"
+    },
+    "SRV-WEB02": {
+      "fqdn": "srv-web02.corp.example",
+      "ip": "10.20.40.22",
+      "os": "windows",
+      "role": "dmz"
+    },
+    "VULNSCAN01": {
+      "fqdn": "vulnscan01.corp.example",
+      "ip": "10.20.50.41",
+      "os": "windows",
+      "role": "infra"
+    },
+    "WKS-DEV-11": {
+      "fqdn": "wks-dev-11.corp.example",
+      "ip": "10.20.10.41",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-FIN-07": {
+      "fqdn": "wks-fin-07.corp.example",
+      "ip": "10.20.10.37",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-001": {
+      "fqdn": "wks-gen-001.corp.example",
+      "ip": "10.20.10.100",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-002": {
+      "fqdn": "wks-gen-002.corp.example",
+      "ip": "10.20.10.101",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-003": {
+      "fqdn": "wks-gen-003.corp.example",
+      "ip": "10.20.10.102",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-004": {
+      "fqdn": "wks-gen-004.corp.example",
+      "ip": "10.20.10.103",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-005": {
+      "fqdn": "wks-gen-005.corp.example",
+      "ip": "10.20.10.104",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-006": {
+      "fqdn": "wks-gen-006.corp.example",
+      "ip": "10.20.10.105",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-007": {
+      "fqdn": "wks-gen-007.corp.example",
+      "ip": "10.20.10.106",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-008": {
+      "fqdn": "wks-gen-008.corp.example",
+      "ip": "10.20.10.107",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-009": {
+      "fqdn": "wks-gen-009.corp.example",
+      "ip": "10.20.10.108",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-010": {
+      "fqdn": "wks-gen-010.corp.example",
+      "ip": "10.20.10.109",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-011": {
+      "fqdn": "wks-gen-011.corp.example",
+      "ip": "10.20.10.110",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-012": {
+      "fqdn": "wks-gen-012.corp.example",
+      "ip": "10.20.10.111",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-013": {
+      "fqdn": "wks-gen-013.corp.example",
+      "ip": "10.20.10.112",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-014": {
+      "fqdn": "wks-gen-014.corp.example",
+      "ip": "10.20.10.113",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-015": {
+      "fqdn": "wks-gen-015.corp.example",
+      "ip": "10.20.10.114",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-016": {
+      "fqdn": "wks-gen-016.corp.example",
+      "ip": "10.20.10.115",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-017": {
+      "fqdn": "wks-gen-017.corp.example",
+      "ip": "10.20.10.116",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-018": {
+      "fqdn": "wks-gen-018.corp.example",
+      "ip": "10.20.10.117",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-019": {
+      "fqdn": "wks-gen-019.corp.example",
+      "ip": "10.20.10.118",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-020": {
+      "fqdn": "wks-gen-020.corp.example",
+      "ip": "10.20.10.119",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-021": {
+      "fqdn": "wks-gen-021.corp.example",
+      "ip": "10.20.10.120",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-022": {
+      "fqdn": "wks-gen-022.corp.example",
+      "ip": "10.20.10.121",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-023": {
+      "fqdn": "wks-gen-023.corp.example",
+      "ip": "10.20.10.122",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-024": {
+      "fqdn": "wks-gen-024.corp.example",
+      "ip": "10.20.10.123",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-025": {
+      "fqdn": "wks-gen-025.corp.example",
+      "ip": "10.20.10.124",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-026": {
+      "fqdn": "wks-gen-026.corp.example",
+      "ip": "10.20.10.125",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-027": {
+      "fqdn": "wks-gen-027.corp.example",
+      "ip": "10.20.10.126",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-028": {
+      "fqdn": "wks-gen-028.corp.example",
+      "ip": "10.20.10.127",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-029": {
+      "fqdn": "wks-gen-029.corp.example",
+      "ip": "10.20.10.128",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-030": {
+      "fqdn": "wks-gen-030.corp.example",
+      "ip": "10.20.10.129",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-031": {
+      "fqdn": "wks-gen-031.corp.example",
+      "ip": "10.20.10.130",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-032": {
+      "fqdn": "wks-gen-032.corp.example",
+      "ip": "10.20.10.131",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-033": {
+      "fqdn": "wks-gen-033.corp.example",
+      "ip": "10.20.10.132",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-034": {
+      "fqdn": "wks-gen-034.corp.example",
+      "ip": "10.20.10.133",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-035": {
+      "fqdn": "wks-gen-035.corp.example",
+      "ip": "10.20.10.134",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-036": {
+      "fqdn": "wks-gen-036.corp.example",
+      "ip": "10.20.10.135",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-037": {
+      "fqdn": "wks-gen-037.corp.example",
+      "ip": "10.20.10.136",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-038": {
+      "fqdn": "wks-gen-038.corp.example",
+      "ip": "10.20.10.137",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-039": {
+      "fqdn": "wks-gen-039.corp.example",
+      "ip": "10.20.10.138",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-GEN-040": {
+      "fqdn": "wks-gen-040.corp.example",
+      "ip": "10.20.10.139",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-HR-03": {
+      "fqdn": "wks-hr-03.corp.example",
+      "ip": "10.20.10.33",
+      "os": "windows",
+      "role": "wks"
+    },
+    "WKS-SALES-22": {
+      "fqdn": "wks-sales-22.corp.example",
+      "ip": "10.20.10.52",
+      "os": "windows",
+      "role": "wks"
+    },
+    "k8s-cp01": {
+      "fqdn": "k8s-cp01.corp.example",
+      "ip": "10.20.60.5",
+      "os": "linux",
+      "role": "k8s"
+    },
+    "k8s-node01": {
+      "fqdn": "k8s-node01.corp.example",
+      "ip": "10.20.60.11",
+      "os": "linux",
+      "role": "k8s"
+    },
+    "k8s-node02": {
+      "fqdn": "k8s-node02.corp.example",
+      "ip": "10.20.60.12",
+      "os": "linux",
+      "role": "k8s"
+    },
+    "lnx-app01": {
+      "fqdn": "lnx-app01.corp.example",
+      "ip": "10.20.35.31",
+      "os": "linux",
+      "role": "linux"
+    },
+    "lnx-bastion01": {
+      "fqdn": "lnx-bastion01.corp.example",
+      "ip": "10.20.50.12",
+      "os": "linux",
+      "role": "linux"
+    },
+    "lnx-db01": {
+      "fqdn": "lnx-db01.corp.example",
+      "ip": "10.20.35.41",
+      "os": "linux",
+      "role": "linux"
+    },
+    "lnx-web01": {
+      "fqdn": "lnx-web01.corp.example",
+      "ip": "10.20.35.21",
+      "os": "linux",
+      "role": "linux"
+    }
+  },
+  "log_window": {
+    "end": "2026-11-12",
+    "start": "2026-11-09"
+  },
+  "network_devices": {
+    "FGT-CORE": {
+      "devid": "FGFAKE0000000002",
+      "devname": "FGT-CORE-01",
+      "model": "FortiGate-101F",
+      "role": "east-west admin filter (no NAT)"
+    },
+    "FGT-EDGE": {
+      "devid": "FGFAKE0000000001",
+      "devname": "FGT-EDGE-01",
+      "model": "FortiGate-201F",
+      "natip": "203.0.113.2",
+      "role": "internet edge, SNAT to 203.0.113.2"
+    },
+    "PA-CORE": {
+      "model": "PA-3420",
+      "role": "internal segmentation (no NAT)",
+      "serial": "FAKE0000PA01",
+      "vsys": "vsys1"
+    },
+    "PA-DMZ": {
+      "model": "PA-1410",
+      "role": "DMZ ingress (no SNAT)",
+      "serial": "FAKE0000PA02",
+      "vsys": "vsys1"
+    },
+    "bigip-dmz-01": {
+      "mgmt": "10.20.50.60",
+      "unit": "bigip-dmz-01.corp.example"
+    },
+    "cp-gw01": {
+      "origin": "10.20.50.1",
+      "version": "R81.20"
+    },
+    "dns-bind01": {
+      "ip": "10.20.50.53"
+    },
+    "proxy01": {
+      "ip": "10.20.50.8"
+    }
+  },
+  "network_topology_th": "ผู้ใช้ภายใน → PA-CORE (แบ่งโซนภายใน ไม่ทำ NAT) → FGT-EDGE (ขอบอินเทอร์เน็ต ทำ SNAT เป็น 203.0.113.2) ; FGT-CORE กรองทราฟฟิกแอดมิน east-west (ไม่ทำ NAT) ; ทราฟฟิกขาเข้าจากอินเทอร์เน็ตเข้า FGT-EDGE ที่ VIP (DNAT: 203.0.113.3→SRV-WEB01, 203.0.113.4→SRV-WEB02, 203.0.113.5→SRV-RDS01) แล้วส่งต่อให้ PA-DMZ ซึ่งบังคับ policy ของ DMZ (เว็บผ่าน F5 bigip-dmz-01: vs_shop_https→SRV-WEB01, vs_partner_https→SRV-WEB02 ; RDP ของ SRV-RDS01 เปิดที่ tcp/3389) ; interface ของ FortiGate: wan1=wan, dmz=dmz, portN/internal=lan ; proxy01 (Squid) ออกอินเทอร์เน็ตผ่าน FGT-EDGE",
+  "note_th": "แต่ละแหล่ง log ใช้รูปแบบเวลาของตัวเอง: บางแหล่งเป็น UTC (Windows Event XML, Sysmon UtcTime, Squid, Docker, K8s, auditd epoch) บางแหล่งเป็นเวลาท้องถิ่น ICT ของอุปกรณ์ (syslog RFC3164, PAN-OS, F5, BIND, Windows DNS, FortiGate date/time) ดู tz_conventions.json; เวลาท้องถิ่นองค์กรคือ Asia/Bangkok (UTC+07, ไม่มี DST) ; change_calendar คือรายการ change/งานที่อนุมัติ (ไม่ใช่คำเฉลย: มีทั้งงานที่เกี่ยวและไม่เกี่ยวกับเคส และบางกิจกรรมของแอดมินไม่มี ticket)",
+  "org_timezone": "Asia/Bangkok",
+  "users": {
+    "achai": {
+      "home_host": "WKS-GEN-017",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1180",
+      "upn": "achai@corp.example"
+    },
+    "adm_kitti": {
+      "home_host": null,
+      "kind": "admin",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1150",
+      "upn": "adm_kitti@corp.example"
+    },
+    "administrator": {
+      "home_host": null,
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-500",
+      "upn": "administrator@corp.example"
+    },
+    "apatel": {
+      "home_host": "WKS-HR-03",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1103",
+      "upn": "apatel@corp.example"
+    },
+    "bnara": {
+      "home_host": "WKS-GEN-003",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1181",
+      "upn": "bnara@corp.example"
+    },
+    "bwong": {
+      "home_host": "WKS-GEN-006",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1163",
+      "upn": "bwong@corp.example"
+    },
+    "cdao": {
+      "home_host": "WKS-GEN-007",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1179",
+      "upn": "cdao@corp.example"
+    },
+    "csiri": {
+      "home_host": "WKS-GEN-005",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1182",
+      "upn": "csiri@corp.example"
+    },
+    "ddeep": {
+      "home_host": "WKS-DEV-11",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1111",
+      "upn": "ddeep@corp.example"
+    },
+    "dkan": {
+      "home_host": "WKS-GEN-031",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1183",
+      "upn": "dkan@corp.example"
+    },
+    "eporn": {
+      "home_host": "WKS-GEN-018",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1184",
+      "upn": "eporn@corp.example"
+    },
+    "fwan": {
+      "home_host": "WKS-GEN-026",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1185",
+      "upn": "fwan@corp.example"
+    },
+    "gtip": {
+      "home_host": "WKS-GEN-036",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1186",
+      "upn": "gtip@corp.example"
+    },
+    "helpdesk": {
+      "home_host": "WKS-GEN-027",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1140",
+      "upn": "helpdesk@corp.example"
+    },
+    "hsom": {
+      "home_host": "WKS-GEN-002",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1187",
+      "upn": "hsom@corp.example"
+    },
+    "ipim": {
+      "home_host": "WKS-GEN-025",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1188",
+      "upn": "ipim@corp.example"
+    },
+    "jrat": {
+      "home_host": "WKS-GEN-032",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1189",
+      "upn": "jrat@corp.example"
+    },
+    "jsmith": {
+      "home_host": "WKS-FIN-07",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1107",
+      "upn": "jsmith@corp.example"
+    },
+    "jtana": {
+      "home_host": "WKS-GEN-029",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1175",
+      "upn": "jtana@corp.example"
+    },
+    "kchai": {
+      "home_host": "WKS-GEN-028",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1170",
+      "upn": "kchai@corp.example"
+    },
+    "kmon": {
+      "home_host": "WKS-GEN-001",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1190",
+      "upn": "kmon@corp.example"
+    },
+    "lkit": {
+      "home_host": "WKS-GEN-037",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1177",
+      "upn": "lkit@corp.example"
+    },
+    "lnoi": {
+      "home_host": "WKS-GEN-013",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1191",
+      "upn": "lnoi@corp.example"
+    },
+    "mpra": {
+      "home_host": "WKS-GEN-035",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1192",
+      "upn": "mpra@corp.example"
+    },
+    "mwhite": {
+      "home_host": "WKS-GEN-019",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1160",
+      "upn": "mwhite@corp.example"
+    },
+    "nkul": {
+      "home_host": "WKS-GEN-040",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1193",
+      "upn": "nkul@corp.example"
+    },
+    "nporn": {
+      "home_host": "WKS-GEN-023",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1178",
+      "upn": "nporn@corp.example"
+    },
+    "nwong": {
+      "home_host": "WKS-SALES-22",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1122",
+      "upn": "nwong@corp.example"
+    },
+    "opas": {
+      "home_host": "WKS-GEN-020",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1194",
+      "upn": "opas@corp.example"
+    },
+    "pmali": {
+      "home_host": "WKS-GEN-030",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1172",
+      "upn": "pmali@corp.example"
+    },
+    "psak": {
+      "home_host": "WKS-GEN-016",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1195",
+      "upn": "psak@corp.example"
+    },
+    "pwadee": {
+      "hire_date": "2026-11-09",
+      "home_host": "WKS-GEN-039",
+      "kind": "user",
+      "note_th": "พนักงานใหม่ บัญชีสร้างระหว่างช่วง log (ดู onboarding)",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1526",
+      "upn": "pwadee@corp.example"
+    },
+    "qwit": {
+      "home_host": "WKS-GEN-010",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1196",
+      "upn": "qwit@corp.example"
+    },
+    "rkam": {
+      "home_host": "WKS-GEN-011",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1197",
+      "upn": "rkam@corp.example"
+    },
+    "rlee": {
+      "home_host": "WKS-GEN-033",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1162",
+      "upn": "rlee@corp.example"
+    },
+    "rsiri": {
+      "home_host": "WKS-GEN-012",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1174",
+      "upn": "rsiri@corp.example"
+    },
+    "sboon": {
+      "home_host": "WKS-GEN-024",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1173",
+      "upn": "sboon@corp.example"
+    },
+    "scan_svc": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1241",
+      "upn": "scan_svc@corp.example"
+    },
+    "schan": {
+      "home_host": "WKS-GEN-021",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1161",
+      "upn": "schan@corp.example"
+    },
+    "stha": {
+      "home_host": "WKS-GEN-004",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1198",
+      "upn": "stha@corp.example"
+    },
+    "svc_backup": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1202",
+      "upn": "svc_backup@corp.example"
+    },
+    "svc_deploy": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1205",
+      "upn": "svc_deploy@corp.example"
+    },
+    "svc_etl": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1206",
+      "upn": "svc_etl@corp.example"
+    },
+    "svc_monitor": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1207",
+      "upn": "svc_monitor@corp.example"
+    },
+    "svc_report": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1204",
+      "upn": "svc_report@corp.example"
+    },
+    "svc_sccm": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1203",
+      "upn": "svc_sccm@corp.example"
+    },
+    "svc_sql": {
+      "home_host": null,
+      "kind": "service",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1201",
+      "upn": "svc_sql@corp.example"
+    },
+    "tnuch": {
+      "home_host": "WKS-GEN-008",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1171",
+      "upn": "tnuch@corp.example"
+    },
+    "tyai": {
+      "home_host": "WKS-GEN-022",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1199",
+      "upn": "tyai@corp.example"
+    },
+    "uthai": {
+      "home_host": "WKS-GEN-014",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1208",
+      "upn": "uthai@corp.example"
+    },
+    "vnin": {
+      "home_host": "WKS-GEN-009",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1209",
+      "upn": "vnin@corp.example"
+    },
+    "wkla": {
+      "home_host": "WKS-GEN-038",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1210",
+      "upn": "wkla@corp.example"
+    },
+    "wpan": {
+      "home_host": "WKS-GEN-015",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1176",
+      "upn": "wpan@corp.example"
+    },
+    "ypat": {
+      "home_host": "WKS-GEN-034",
+      "kind": "user",
+      "sid": "S-1-5-21-1835023452-1944211108-3039928884-1212",
+      "upn": "ypat@corp.example"
+    }
+  },
+  "utc_offset": "+07:00"
+}

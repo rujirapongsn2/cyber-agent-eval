@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "cyber-agent-eval ground truth (answer key)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "severity",
+    "is_malicious",
+    "is_fp_trap",
+    "techniques",
+    "iocs",
+    "correlation_keys",
+    "rationale_th",
+    "is_decoy"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^CAE-[0-9]{4}$"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low",
+        "info"
+      ]
+    },
+    "is_malicious": {
+      "type": "boolean"
+    },
+    "is_fp_trap": {
+      "type": "boolean"
+    },
+    "fp_trap_kind": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "techniques": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+      }
+    },
+    "iocs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "value"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "ip",
+              "domain",
+              "url",
+              "md5",
+              "sha1",
+              "sha256",
+              "file",
+              "registry",
+              "email",
+              "user"
+            ]
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "correlation_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "campaign_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "campaign_stage": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rationale_th": {
+      "type": "string"
+    },
+    "is_decoy": {
+      "type": "boolean"
+    }
+  }
+}

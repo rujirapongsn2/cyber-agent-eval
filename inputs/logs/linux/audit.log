@@ -1,0 +1,480 @@
+type=SYSCALL msg=audit(1794166815.969:84454): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a5e9e7 a1=7ffd00a5ea07 a2=7ffd00a5ea27 a3=7ffd00a5ea47 items=1 ppid=1723 pid=6730 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=8 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794166815.969:84454): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794166815.969:84454): cwd="/home/ops"
+type=PATH msg=audit(1794166815.969:84454): item=0 name="/usr/bin/apt-get" inode=106730 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794166815.969:84454): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794169914.585:91001): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0041637a a1=7ffd0041639a a2=7ffd004163ba a3=7ffd004163da items=1 ppid=2301 pid=5120 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=3 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794169914.585:91001): argc=3 a0="/usr/bin/curl" a1="-sO" a2="http://mirror-f512.pkg-mirror.example/x.sh"
+type=CWD msg=audit(1794169914.585:91001): cwd="/tmp"
+type=PATH msg=audit(1794169914.585:91001): item=0 name="/usr/bin/curl" inode=105120 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794169914.585:91001): proctitle=6375726c202d734f20687474703a2f2f6d6972726f722d663531322e706b672d6d6972726f722e6578616d706c652f782e7368
+type=SYSCALL msg=audit(1794171047.204:91002): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0047037b a1=7ffd0047039b a2=7ffd004703bb a3=7ffd004703db items=1 ppid=5130 pid=5210 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794171047.204:91002): argc=4 a0="/usr/bin/curl" a1="-T" a2="/tmp/data.tar.gz" a3="https://mirror-f512.pkg-mirror.example/u"
+type=CWD msg=audit(1794171047.204:91002): cwd="/tmp"
+type=PATH msg=audit(1794171047.204:91002): item=0 name="/usr/bin/curl" inode=105210 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794171047.204:91002): proctitle=6375726c202d54202f746d702f646174612e7461722e677a2068747470733a2f2f6d6972726f722d663531322e706b672d6d6972726f722e6578616d706c652f75
+type=SYSCALL msg=audit(1794172394.404:84905): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd001a8bad a1=7ffd001a8bcd a2=7ffd001a8bed a3=7ffd001a8c0d items=1 ppid=178 pid=16788 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=39 comm="curl" exe="/usr/bin/curl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794172394.404:84905): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794172394.404:84905): cwd="/home/ops"
+type=PATH msg=audit(1794172394.404:84905): item=0 name="/usr/bin/curl" inode=116788 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794172394.404:84905): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794178029.250:83868): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd009197a0 a1=7ffd009197c0 a2=7ffd009197e0 a3=7ffd00919800 items=1 ppid=883 pid=18693 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=12 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794178029.250:83868): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794178029.250:83868): cwd="/home/ops"
+type=PATH msg=audit(1794178029.250:83868): item=0 name="/usr/sbin/logrotate" inode=118693 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794178029.250:83868): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794182441.222:82408): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e611e9 a1=7ffd00e61209 a2=7ffd00e61229 a3=7ffd00e61249 items=1 ppid=1493 pid=7757 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=14 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794182441.222:82408): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794182441.222:82408): cwd="/home/ops"
+type=PATH msg=audit(1794182441.222:82408): item=0 name="/usr/bin/tar" inode=107757 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794182441.222:82408): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794190470.752:82128): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00bae0d5 a1=7ffd00bae0f5 a2=7ffd00bae115 a3=7ffd00bae135 items=1 ppid=7 pid=23450 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=26 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794190470.752:82128): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794190470.752:82128): cwd="/root"
+type=PATH msg=audit(1794190470.752:82128): item=0 name="/usr/bin/tar" inode=123450 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794190470.752:82128): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794193593.763:88614): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e67a28 a1=7ffd00e67a48 a2=7ffd00e67a68 a3=7ffd00e67a88 items=1 ppid=179 pid=11858 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=4 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794193593.763:88614): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794193593.763:88614): cwd="/home/ops"
+type=PATH msg=audit(1794193593.763:88614): item=0 name="/usr/bin/systemctl" inode=111858 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794193593.763:88614): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794194828.014:88524): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00db59d1 a1=7ffd00db59f1 a2=7ffd00db5a11 a3=7ffd00db5a31 items=1 ppid=1709 pid=23968 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=39 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794194828.014:88524): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794194828.014:88524): cwd="/root"
+type=PATH msg=audit(1794194828.014:88524): item=0 name="/usr/bin/apt-get" inode=123968 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794194828.014:88524): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794198712.281:81717): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00f92f3a a1=7ffd00f92f5a a2=7ffd00f92f7a a3=7ffd00f92f9a items=1 ppid=100 pid=24447 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=6 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794198712.281:81717): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794198712.281:81717): cwd="/root"
+type=PATH msg=audit(1794198712.281:81717): item=0 name="/usr/sbin/logrotate" inode=124447 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794198712.281:81717): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794199119.287:89720): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0088ae7e a1=7ffd0088ae9e a2=7ffd0088aebe a3=7ffd0088aede items=1 ppid=1510 pid=26741 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=11 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794199119.287:89720): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794199119.287:89720): cwd="/home/ops"
+type=PATH msg=audit(1794199119.287:89720): item=0 name="/usr/bin/tar" inode=126741 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794199119.287:89720): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794199755.232:81495): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e2ce57 a1=7ffd00e2ce77 a2=7ffd00e2ce97 a3=7ffd00e2ceb7 items=1 ppid=184 pid=3609 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=18 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794199755.232:81495): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794199755.232:81495): cwd="/home/ops"
+type=PATH msg=audit(1794199755.232:81495): item=0 name="/usr/bin/curl" inode=103609 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794199755.232:81495): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794204101.699:82915): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd002523ea a1=7ffd0025240a a2=7ffd0025242a a3=7ffd0025244a items=1 ppid=1138 pid=29246 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=39 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794204101.699:82915): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794204101.699:82915): cwd="/root"
+type=PATH msg=audit(1794204101.699:82915): item=0 name="/usr/bin/apt-get" inode=129246 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794204101.699:82915): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794207407.091:81279): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd002dad80 a1=7ffd002dada0 a2=7ffd002dadc0 a3=7ffd002dade0 items=1 ppid=5 pid=4807 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=9 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794207407.091:81279): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794207407.091:81279): cwd="/root"
+type=PATH msg=audit(1794207407.091:81279): item=0 name="/usr/bin/apt-get" inode=104807 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794207407.091:81279): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794214033.643:85253): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00245d08 a1=7ffd00245d28 a2=7ffd00245d48 a3=7ffd00245d68 items=1 ppid=1357 pid=12849 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=10 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794214033.643:85253): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794214033.643:85253): cwd="/home/ops"
+type=PATH msg=audit(1794214033.643:85253): item=0 name="/usr/bin/systemctl" inode=112849 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794214033.643:85253): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794216578.876:81309): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a53d9d a1=7ffd00a53dbd a2=7ffd00a53ddd a3=7ffd00a53dfd items=1 ppid=860 pid=2624 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=24 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794216578.876:81309): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794216578.876:81309): cwd="/home/ops"
+type=PATH msg=audit(1794216578.876:81309): item=0 name="/usr/sbin/logrotate" inode=102624 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794216578.876:81309): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794219861.336:81748): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd003caf5a a1=7ffd003caf7a a2=7ffd003caf9a a3=7ffd003cafba items=1 ppid=79 pid=25527 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=30 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794219861.336:81748): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794219861.336:81748): cwd="/root"
+type=PATH msg=audit(1794219861.336:81748): item=0 name="/usr/bin/curl" inode=125527 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794219861.336:81748): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794220407.966:87284): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd006544f5 a1=7ffd00654515 a2=7ffd00654535 a3=7ffd00654555 items=1 ppid=240 pid=5695 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=32 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794220407.966:87284): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794220407.966:87284): cwd="/root"
+type=PATH msg=audit(1794220407.966:87284): item=0 name="/usr/bin/tar" inode=105695 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794220407.966:87284): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794223376.022:87982): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00f267b0 a1=7ffd00f267d0 a2=7ffd00f267f0 a3=7ffd00f26810 items=1 ppid=644 pid=12049 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=8 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794223376.022:87982): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794223376.022:87982): cwd="/home/ops"
+type=PATH msg=audit(1794223376.022:87982): item=0 name="/usr/bin/systemctl" inode=112049 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794223376.022:87982): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794223868.505:81089): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00afccc5 a1=7ffd00afcce5 a2=7ffd00afcd05 a3=7ffd00afcd25 items=1 ppid=1909 pid=19177 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=31 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794223868.505:81089): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794223868.505:81089): cwd="/home/ops"
+type=PATH msg=audit(1794223868.505:81089): item=0 name="/usr/bin/systemctl" inode=119177 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794223868.505:81089): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794226669.755:87539): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00d9b5f3 a1=7ffd00d9b613 a2=7ffd00d9b633 a3=7ffd00d9b653 items=1 ppid=811 pid=3462 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=13 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794226669.755:87539): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794226669.755:87539): cwd="/home/ops"
+type=PATH msg=audit(1794226669.755:87539): item=0 name="/usr/bin/apt-get" inode=103462 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794226669.755:87539): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794227799.357:84910): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd006c9bb4 a1=7ffd006c9bd4 a2=7ffd006c9bf4 a3=7ffd006c9c14 items=1 ppid=838 pid=26293 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=30 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794227799.357:84910): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794227799.357:84910): cwd="/root"
+type=PATH msg=audit(1794227799.357:84910): item=0 name="/usr/sbin/logrotate" inode=126293 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794227799.357:84910): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794264956.537:89656): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00951e3e a1=7ffd00951e5e a2=7ffd00951e7e a3=7ffd00951e9e items=1 ppid=507 pid=26940 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=3 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794264956.537:89656): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794264956.537:89656): cwd="/home/ops"
+type=PATH msg=audit(1794264956.537:89656): item=0 name="/usr/bin/tar" inode=126940 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794264956.537:89656): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794266443.221:89171): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd000efc54 a1=7ffd000efc74 a2=7ffd000efc94 a3=7ffd000efcb4 items=1 ppid=641 pid=4314 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=2 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794266443.221:89171): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794266443.221:89171): cwd="/home/ops"
+type=PATH msg=audit(1794266443.221:89171): item=0 name="/usr/bin/curl" inode=104314 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794266443.221:89171): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794266585.102:89953): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd006cef66 a1=7ffd006cef86 a2=7ffd006cefa6 a3=7ffd006cefc6 items=1 ppid=785 pid=22201 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=31 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794266585.102:89953): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794266585.102:89953): cwd="/home/ops"
+type=PATH msg=audit(1794266585.102:89953): item=0 name="/usr/bin/systemctl" inode=122201 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794266585.102:89953): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794270718.118:87135): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00f0c463 a1=7ffd00f0c483 a2=7ffd00f0c4a3 a3=7ffd00f0c4c3 items=1 ppid=1457 pid=20215 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=8 comm="tar" exe="/usr/bin/tar" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794270718.118:87135): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794270718.118:87135): cwd="/root"
+type=PATH msg=audit(1794270718.118:87135): item=0 name="/usr/bin/tar" inode=120215 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794270718.118:87135): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794273272.620:80112): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd004988f6 a1=7ffd00498916 a2=7ffd00498936 a3=7ffd00498956 items=1 ppid=347 pid=25733 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=17 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794273272.620:80112): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794273272.620:80112): cwd="/home/ops"
+type=PATH msg=audit(1794273272.620:80112): item=0 name="/usr/bin/curl" inode=125733 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794273272.620:80112): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794275306.954:80591): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0084cad2 a1=7ffd0084caf2 a2=7ffd0084cb12 a3=7ffd0084cb32 items=1 ppid=271 pid=14393 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=39 comm="curl" exe="/usr/bin/curl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794275306.954:80591): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794275306.954:80591): cwd="/root"
+type=PATH msg=audit(1794275306.954:80591): item=0 name="/usr/bin/curl" inode=114393 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794275306.954:80591): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794279634.191:88245): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd007028ba a1=7ffd007028da a2=7ffd007028fa a3=7ffd0070291a items=1 ppid=1835 pid=22253 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=35 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794279634.191:88245): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794279634.191:88245): cwd="/root"
+type=PATH msg=audit(1794279634.191:88245): item=0 name="/usr/sbin/logrotate" inode=122253 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794279634.191:88245): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794281491.283:80581): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00c77ac6 a1=7ffd00c77ae6 a2=7ffd00c77b06 a3=7ffd00c77b26 items=1 ppid=510 pid=7268 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=18 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794281491.283:80581): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794281491.283:80581): cwd="/home/ops"
+type=PATH msg=audit(1794281491.283:80581): item=0 name="/usr/bin/curl" inode=107268 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794281491.283:80581): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794282727.174:81325): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a96db0 a1=7ffd00a96dd0 a2=7ffd00a96df0 a3=7ffd00a96e10 items=1 ppid=1779 pid=14979 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=9 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794282727.174:81325): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794282727.174:81325): cwd="/home/ops"
+type=PATH msg=audit(1794282727.174:81325): item=0 name="/usr/bin/tar" inode=114979 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794282727.174:81325): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794284563.765:83084): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a5e492 a1=7ffd00a5e4b2 a2=7ffd00a5e4d2 a3=7ffd00a5e4f2 items=1 ppid=1973 pid=27210 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=27 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794284563.765:83084): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794284563.765:83084): cwd="/home/ops"
+type=PATH msg=audit(1794284563.765:83084): item=0 name="/usr/bin/apt-get" inode=127210 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794284563.765:83084): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794286114.129:80249): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0003397f a1=7ffd0003399f a2=7ffd000339bf a3=7ffd000339df items=1 ppid=232 pid=24608 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=37 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794286114.129:80249): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794286114.129:80249): cwd="/home/ops"
+type=PATH msg=audit(1794286114.129:80249): item=0 name="/usr/sbin/logrotate" inode=124608 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794286114.129:80249): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794289102.107:85827): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00fa8f44 a1=7ffd00fa8f64 a2=7ffd00fa8f84 a3=7ffd00fa8fa4 items=1 ppid=1498 pid=8084 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=35 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794289102.107:85827): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794289102.107:85827): cwd="/home/ops"
+type=PATH msg=audit(1794289102.107:85827): item=0 name="/usr/bin/systemctl" inode=108084 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794289102.107:85827): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794293268.100:85236): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00c9bcf6 a1=7ffd00c9bd16 a2=7ffd00c9bd36 a3=7ffd00c9bd56 items=1 ppid=1404 pid=11399 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=26 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794293268.100:85236): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794293268.100:85236): cwd="/home/ops"
+type=PATH msg=audit(1794293268.100:85236): item=0 name="/usr/bin/curl" inode=111399 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794293268.100:85236): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794299588.137:85638): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00bc3e89 a1=7ffd00bc3ea9 a2=7ffd00bc3ec9 a3=7ffd00bc3ee9 items=1 ppid=1798 pid=15279 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=40 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794299588.137:85638): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794299588.137:85638): cwd="/home/ops"
+type=PATH msg=audit(1794299588.137:85638): item=0 name="/usr/sbin/logrotate" inode=115279 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794299588.137:85638): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794301401.697:81283): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd004d9d84 a1=7ffd004d9da4 a2=7ffd004d9dc4 a3=7ffd004d9de4 items=1 ppid=611 pid=5318 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=5 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794301401.697:81283): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794301401.697:81283): cwd="/home/ops"
+type=PATH msg=audit(1794301401.697:81283): item=0 name="/usr/bin/systemctl" inode=105318 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794301401.697:81283): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794306800.264:84118): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00d44896 a1=7ffd00d448b6 a2=7ffd00d448d6 a3=7ffd00d448f6 items=1 ppid=73 pid=3376 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=9 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794306800.264:84118): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794306800.264:84118): cwd="/root"
+type=PATH msg=audit(1794306800.264:84118): item=0 name="/usr/bin/apt-get" inode=103376 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794306800.264:84118): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794314283.936:83484): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd002b761f a1=7ffd002b763f a2=7ffd002b765f a3=7ffd002b767f items=1 ppid=410 pid=12963 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=25 comm="tar" exe="/usr/bin/tar" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794314283.936:83484): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794314283.936:83484): cwd="/root"
+type=PATH msg=audit(1794314283.936:83484): item=0 name="/usr/bin/tar" inode=112963 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794314283.936:83484): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794314653.486:87363): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a54549 a1=7ffd00a54569 a2=7ffd00a54589 a3=7ffd00a545a9 items=1 ppid=1925 pid=27199 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=1 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794314653.486:87363): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794314653.486:87363): cwd="/home/ops"
+type=PATH msg=audit(1794314653.486:87363): item=0 name="/usr/bin/curl" inode=127199 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794314653.486:87363): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794315568.938:88372): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e0e937 a1=7ffd00e0e957 a2=7ffd00e0e977 a3=7ffd00e0e997 items=1 ppid=417 pid=15865 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=26 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794315568.938:88372): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794315568.938:88372): cwd="/home/ops"
+type=PATH msg=audit(1794315568.938:88372): item=0 name="/usr/bin/tar" inode=115865 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794315568.938:88372): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794322647.982:82832): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00ff0394 a1=7ffd00ff03b4 a2=7ffd00ff03d4 a3=7ffd00ff03f4 items=1 ppid=328 pid=20444 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=26 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794322647.982:82832): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794322647.982:82832): cwd="/root"
+type=PATH msg=audit(1794322647.982:82832): item=0 name="/usr/bin/tar" inode=120444 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794322647.982:82832): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794324015.372:88042): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00ccb7ea a1=7ffd00ccb80a a2=7ffd00ccb82a a3=7ffd00ccb84a items=1 ppid=342 pid=3254 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=10 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794324015.372:88042): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794324015.372:88042): cwd="/home/ops"
+type=PATH msg=audit(1794324015.372:88042): item=0 name="/usr/bin/curl" inode=103254 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794324015.372:88042): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794343174.473:84530): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00302a37 a1=7ffd00302a57 a2=7ffd00302a77 a3=7ffd00302a97 items=1 ppid=566 pid=21230 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=38 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794343174.473:84530): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794343174.473:84530): cwd="/home/ops"
+type=PATH msg=audit(1794343174.473:84530): item=0 name="/usr/bin/curl" inode=121230 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794343174.473:84530): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794345512.606:82261): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0039a15c a1=7ffd0039a17c a2=7ffd0039a19c a3=7ffd0039a1bc items=1 ppid=441 pid=29574 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=22 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794345512.606:82261): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794345512.606:82261): cwd="/home/ops"
+type=PATH msg=audit(1794345512.606:82261): item=0 name="/usr/bin/tar" inode=129574 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794345512.606:82261): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794354348.590:86607): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00b81252 a1=7ffd00b81272 a2=7ffd00b81292 a3=7ffd00b812b2 items=1 ppid=1212 pid=15212 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=2 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794354348.590:86607): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794354348.590:86607): cwd="/root"
+type=PATH msg=audit(1794354348.590:86607): item=0 name="/usr/bin/apt-get" inode=115212 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794354348.590:86607): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794360214.791:89937): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00edcf51 a1=7ffd00edcf71 a2=7ffd00edcf91 a3=7ffd00edcfb1 items=1 ppid=1337 pid=3783 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=2 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794360214.791:89937): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794360214.791:89937): cwd="/home/ops"
+type=PATH msg=audit(1794360214.791:89937): item=0 name="/usr/bin/systemctl" inode=103783 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794360214.791:89937): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794364276.525:84699): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0091badb a1=7ffd0091bafb a2=7ffd0091bb1b a3=7ffd0091bb3b items=1 ppid=154 pid=2311 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=23 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794364276.525:84699): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794364276.525:84699): cwd="/home/ops"
+type=PATH msg=audit(1794364276.525:84699): item=0 name="/usr/bin/tar" inode=102311 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794364276.525:84699): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794364417.811:82274): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd008f4168 a1=7ffd008f4188 a2=7ffd008f41a8 a3=7ffd008f41c8 items=1 ppid=1074 pid=26848 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=1 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794364417.811:82274): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794364417.811:82274): cwd="/root"
+type=PATH msg=audit(1794364417.811:82274): item=0 name="/usr/bin/tar" inode=126848 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794364417.811:82274): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794364670.933:80158): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00777923 a1=7ffd00777943 a2=7ffd00777963 a3=7ffd00777983 items=1 ppid=295 pid=22372 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=19 comm="tar" exe="/usr/bin/tar" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794364670.933:80158): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794364670.933:80158): cwd="/home/ops"
+type=PATH msg=audit(1794364670.933:80158): item=0 name="/usr/bin/tar" inode=122372 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794364670.933:80158): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794373155.425:84940): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00428bd1 a1=7ffd00428bf1 a2=7ffd00428c11 a3=7ffd00428c31 items=1 ppid=706 pid=21524 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=27 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794373155.425:84940): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794373155.425:84940): cwd="/home/ops"
+type=PATH msg=audit(1794373155.425:84940): item=0 name="/usr/bin/curl" inode=121524 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794373155.425:84940): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794376129.234:82231): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00fe413a a1=7ffd00fe415a a2=7ffd00fe417a a3=7ffd00fe419a items=1 ppid=1569 pid=16336 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=5 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794376129.234:82231): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794376129.234:82231): cwd="/home/ops"
+type=PATH msg=audit(1794376129.234:82231): item=0 name="/usr/sbin/logrotate" inode=116336 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794376129.234:82231): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794378636.089:83545): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd002a465f a1=7ffd002a467f a2=7ffd002a469f a3=7ffd002a46bf items=1 ppid=1919 pid=25232 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=31 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794378636.089:83545): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794378636.089:83545): cwd="/root"
+type=PATH msg=audit(1794378636.089:83545): item=0 name="/usr/bin/systemctl" inode=125232 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794378636.089:83545): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794379581.122:86929): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0024a396 a1=7ffd0024a3b6 a2=7ffd0024a3d6 a3=7ffd0024a3f6 items=1 ppid=185 pid=21045 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=12 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794379581.122:86929): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794379581.122:86929): cwd="/home/ops"
+type=PATH msg=audit(1794379581.122:86929): item=0 name="/usr/bin/systemctl" inode=121045 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794379581.122:86929): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794380453.866:83960): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd002b37fc a1=7ffd002b381c a2=7ffd002b383c a3=7ffd002b385c items=1 ppid=1789 pid=17055 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=30 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794380453.866:83960): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794380453.866:83960): cwd="/root"
+type=PATH msg=audit(1794380453.866:83960): item=0 name="/usr/sbin/logrotate" inode=117055 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794380453.866:83960): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794381377.980:89867): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd004a9f11 a1=7ffd004a9f31 a2=7ffd004a9f51 a3=7ffd004a9f71 items=1 ppid=1596 pid=25748 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=15 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794381377.980:89867): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794381377.980:89867): cwd="/home/ops"
+type=PATH msg=audit(1794381377.980:89867): item=0 name="/usr/bin/systemctl" inode=125748 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794381377.980:89867): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794382542.051:81651): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd003b7ef9 a1=7ffd003b7f19 a2=7ffd003b7f39 a3=7ffd003b7f59 items=1 ppid=331 pid=25508 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=21 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794382542.051:81651): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794382542.051:81651): cwd="/home/ops"
+type=PATH msg=audit(1794382542.051:81651): item=0 name="/usr/sbin/logrotate" inode=125508 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794382542.051:81651): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794383097.067:88639): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd006d1a45 a1=7ffd006d1a65 a2=7ffd006d1a85 a3=7ffd006d1aa5 items=1 ppid=1093 pid=26300 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=22 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794383097.067:88639): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794383097.067:88639): cwd="/home/ops"
+type=PATH msg=audit(1794383097.067:88639): item=0 name="/usr/bin/systemctl" inode=126300 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794383097.067:88639): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794385310.305:83696): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd009746f0 a1=7ffd00974710 a2=7ffd00974730 a3=7ffd00974750 items=1 ppid=618 pid=2400 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=7 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794385310.305:83696): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794385310.305:83696): cwd="/home/ops"
+type=PATH msg=audit(1794385310.305:83696): item=0 name="/usr/bin/apt-get" inode=102400 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794385310.305:83696): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794388043.658:83478): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e43617 a1=7ffd00e43637 a2=7ffd00e43657 a3=7ffd00e43677 items=1 ppid=1530 pid=7727 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=4 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794388043.658:83478): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794388043.658:83478): cwd="/home/ops"
+type=PATH msg=audit(1794388043.658:83478): item=0 name="/usr/bin/systemctl" inode=107727 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794388043.658:83478): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794388151.467:83624): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00c966a8 a1=7ffd00c966c8 a2=7ffd00c966e8 a3=7ffd00c96708 items=1 ppid=754 pid=3202 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=33 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794388151.467:83624): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794388151.467:83624): cwd="/home/ops"
+type=PATH msg=audit(1794388151.467:83624): item=0 name="/usr/bin/tar" inode=103202 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794388151.467:83624): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794388901.943:84273): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00044932 a1=7ffd00044952 a2=7ffd00044972 a3=7ffd00044992 items=1 ppid=245 pid=4144 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=36 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794388901.943:84273): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794388901.943:84273): cwd="/root"
+type=PATH msg=audit(1794388901.943:84273): item=0 name="/usr/bin/systemctl" inode=104144 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794388901.943:84273): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794390419.089:88422): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0094a968 a1=7ffd0094a988 a2=7ffd0094a9a8 a3=7ffd0094a9c8 items=1 ppid=1417 pid=10549 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=35 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794390419.089:88422): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794390419.089:88422): cwd="/home/ops"
+type=PATH msg=audit(1794390419.089:88422): item=0 name="/usr/bin/tar" inode=110549 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794390419.089:88422): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794390446.364:86277): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00002109 a1=7ffd00002129 a2=7ffd00002149 a3=7ffd00002169 items=1 ppid=1398 pid=16365 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=24 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794390446.364:86277): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794390446.364:86277): cwd="/root"
+type=PATH msg=audit(1794390446.364:86277): item=0 name="/usr/bin/tar" inode=116365 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794390446.364:86277): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794396814.206:88936): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a60b6d a1=7ffd00a60b8d a2=7ffd00a60bad a3=7ffd00a60bcd items=1 ppid=126 pid=23115 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=31 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794396814.206:88936): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794396814.206:88936): cwd="/home/ops"
+type=PATH msg=audit(1794396814.206:88936): item=0 name="/usr/bin/curl" inode=123115 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794396814.206:88936): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794397111.697:81789): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00ab7f7f a1=7ffd00ab7f9f a2=7ffd00ab7fbf a3=7ffd00ab7fdf items=1 ppid=1138 pid=10916 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=5 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794397111.697:81789): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794397111.697:81789): cwd="/root"
+type=PATH msg=audit(1794397111.697:81789): item=0 name="/usr/bin/systemctl" inode=110916 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794397111.697:81789): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794400238.395:88929): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd008d0b61 a1=7ffd008d0b81 a2=7ffd008d0ba1 a3=7ffd008d0bc1 items=1 ppid=1284 pid=2235 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=38 comm="tar" exe="/usr/bin/tar" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794400238.395:88929): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794400238.395:88929): cwd="/root"
+type=PATH msg=audit(1794400238.395:88929): item=0 name="/usr/bin/tar" inode=102235 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794400238.395:88929): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794400305.719:82201): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0046711c a1=7ffd0046713c a2=7ffd0046715c a3=7ffd0046717c items=1 ppid=1649 pid=13395 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=1 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794400305.719:82201): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794400305.719:82201): cwd="/home/ops"
+type=PATH msg=audit(1794400305.719:82201): item=0 name="/usr/bin/systemctl" inode=113395 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794400305.719:82201): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794405988.943:84745): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00900b0b a1=7ffd00900b2b a2=7ffd00900b4b a3=7ffd00900b6b items=1 ppid=989 pid=10476 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=20 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794405988.943:84745): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794405988.943:84745): cwd="/root"
+type=PATH msg=audit(1794405988.943:84745): item=0 name="/usr/bin/systemctl" inode=110476 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794405988.943:84745): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794408001.081:84166): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00b128cc a1=7ffd00b128ec a2=7ffd00b1290c a3=7ffd00b1292c items=1 ppid=828 pid=27390 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=39 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794408001.081:84166): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794408001.081:84166): cwd="/root"
+type=PATH msg=audit(1794408001.081:84166): item=0 name="/usr/bin/systemctl" inode=127390 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794408001.081:84166): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794425620.779:84248): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00d3191e a1=7ffd00d3193e a2=7ffd00d3195e a3=7ffd00d3197e items=1 ppid=1053 pid=27933 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=14 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794425620.779:84248): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794425620.779:84248): cwd="/root"
+type=PATH msg=audit(1794425620.779:84248): item=0 name="/usr/bin/tar" inode=127933 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794425620.779:84248): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794428673.840:82094): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a590b2 a1=7ffd00a590d2 a2=7ffd00a590f2 a3=7ffd00a59112 items=1 ppid=914 pid=19013 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=21 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794428673.840:82094): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794428673.840:82094): cwd="/home/ops"
+type=PATH msg=audit(1794428673.840:82094): item=0 name="/usr/sbin/logrotate" inode=119013 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794428673.840:82094): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794435838.507:82738): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00687335 a1=7ffd00687355 a2=7ffd00687375 a3=7ffd00687395 items=1 ppid=475 pid=13939 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=25 comm="curl" exe="/usr/bin/curl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794435838.507:82738): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794435838.507:82738): cwd="/home/ops"
+type=PATH msg=audit(1794435838.507:82738): item=0 name="/usr/bin/curl" inode=113939 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794435838.507:82738): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794442506.878:85188): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e7bcc7 a1=7ffd00e7bce7 a2=7ffd00e7bd07 a3=7ffd00e7bd27 items=1 ppid=595 pid=15975 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=28 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794442506.878:85188): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794442506.878:85188): cwd="/home/ops"
+type=PATH msg=audit(1794442506.878:85188): item=0 name="/usr/bin/systemctl" inode=115975 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794442506.878:85188): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794443193.740:83714): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00568706 a1=7ffd00568726 a2=7ffd00568746 a3=7ffd00568766 items=1 ppid=1864 pid=17748 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=34 comm="tar" exe="/usr/bin/tar" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794443193.740:83714): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794443193.740:83714): cwd="/home/ops"
+type=PATH msg=audit(1794443193.740:83714): item=0 name="/usr/bin/tar" inode=117748 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794443193.740:83714): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794443307.407:84229): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0029f90a a1=7ffd0029f92a a2=7ffd0029f94a a3=7ffd0029f96a items=1 ppid=1821 pid=21131 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=22 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794443307.407:84229): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794443307.407:84229): cwd="/home/ops"
+type=PATH msg=audit(1794443307.407:84229): item=0 name="/usr/bin/apt-get" inode=121131 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794443307.407:84229): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794443955.484:88630): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00b84a36 a1=7ffd00b84a56 a2=7ffd00b84a76 a3=7ffd00b84a96 items=1 ppid=759 pid=2927 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=10 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794443955.484:88630): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794443955.484:88630): cwd="/home/ops"
+type=PATH msg=audit(1794443955.484:88630): item=0 name="/usr/sbin/logrotate" inode=102927 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794443955.484:88630): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794453982.746:82214): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00d6e12b a1=7ffd00d6e14b a2=7ffd00d6e16b a3=7ffd00d6e18b items=1 ppid=109 pid=23898 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=1 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794453982.746:82214): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794453982.746:82214): cwd="/home/ops"
+type=PATH msg=audit(1794453982.746:82214): item=0 name="/usr/bin/systemctl" inode=123898 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794453982.746:82214): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794455563.710:86135): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00e44079 a1=7ffd00e44099 a2=7ffd00e440b9 a3=7ffd00e440d9 items=1 ppid=248 pid=11823 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=37 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794455563.710:86135): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794455563.710:86135): cwd="/root"
+type=PATH msg=audit(1794455563.710:86135): item=0 name="/usr/bin/systemctl" inode=111823 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794455563.710:86135): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794456713.323:89046): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00ccbbdb a1=7ffd00ccbbfb a2=7ffd00ccbc1b a3=7ffd00ccbc3b items=1 ppid=1942 pid=23734 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=38 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794456713.323:89046): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794456713.323:89046): cwd="/home/ops"
+type=PATH msg=audit(1794456713.323:89046): item=0 name="/usr/bin/systemctl" inode=123734 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794456713.323:89046): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794458218.208:85803): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00cdef2e a1=7ffd00cdef4e a2=7ffd00cdef6e a3=7ffd00cdef8e items=1 ppid=1059 pid=15562 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=16 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794458218.208:85803): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794458218.208:85803): cwd="/home/ops"
+type=PATH msg=audit(1794458218.208:85803): item=0 name="/usr/bin/tar" inode=115562 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794458218.208:85803): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794461022.397:86895): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00897374 a1=7ffd00897394 a2=7ffd008973b4 a3=7ffd008973d4 items=1 ppid=80 pid=22658 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=30 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794461022.397:86895): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794461022.397:86895): cwd="/home/ops"
+type=PATH msg=audit(1794461022.397:86895): item=0 name="/usr/bin/tar" inode=122658 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794461022.397:86895): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794464838.315:83941): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd001db7ec a1=7ffd001db80c a2=7ffd001db82c a3=7ffd001db84c items=1 ppid=181 pid=29127 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=31 comm="curl" exe="/usr/bin/curl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794464838.315:83941): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794464838.315:83941): cwd="/home/ops"
+type=PATH msg=audit(1794464838.315:83941): item=0 name="/usr/bin/curl" inode=129127 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794464838.315:83941): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794467803.751:85086): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0060ec62 a1=7ffd0060ec82 a2=7ffd0060eca2 a3=7ffd0060ecc2 items=1 ppid=1840 pid=17914 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=14 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794467803.751:85086): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794467803.751:85086): cwd="/home/ops"
+type=PATH msg=audit(1794467803.751:85086): item=0 name="/usr/bin/apt-get" inode=117914 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794467803.751:85086): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794468155.839:82150): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0042a0ec a1=7ffd0042a10c a2=7ffd0042a12c a3=7ffd0042a14c items=1 ppid=1626 pid=25622 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=27 comm="tar" exe="/usr/bin/tar" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794468155.839:82150): argc=4 a0="/usr/bin/tar" a1="-czf" a2="/backup/etc.tar.gz" a3="/etc"
+type=CWD msg=audit(1794468155.839:82150): cwd="/root"
+type=PATH msg=audit(1794468155.839:82150): item=0 name="/usr/bin/tar" inode=125622 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794468155.839:82150): proctitle=2f7573722f62696e2f746172202d637a66202f6261636b75702f6574632e7461722e677a202f657463
+type=SYSCALL msg=audit(1794471743.294:83398): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00cce5c9 a1=7ffd00cce5e9 a2=7ffd00cce609 a3=7ffd00cce629 items=1 ppid=551 pid=15546 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=12 comm="curl" exe="/usr/bin/curl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794471743.294:83398): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794471743.294:83398): cwd="/root"
+type=PATH msg=audit(1794471743.294:83398): item=0 name="/usr/bin/curl" inode=115546 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794471743.294:83398): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794474350.206:85446): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd004addc8 a1=7ffd004adde8 a2=7ffd004ade08 a3=7ffd004ade28 items=1 ppid=790 pid=9369 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=11 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794474350.206:85446): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794474350.206:85446): cwd="/root"
+type=PATH msg=audit(1794474350.206:85446): item=0 name="/usr/bin/curl" inode=109369 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794474350.206:85446): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794475030.501:87283): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00f2b4f5 a1=7ffd00f2b515 a2=7ffd00f2b535 a3=7ffd00f2b555 items=1 ppid=1 pid=12054 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=5 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794475030.501:87283): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794475030.501:87283): cwd="/home/ops"
+type=PATH msg=audit(1794475030.501:87283): item=0 name="/usr/bin/apt-get" inode=112054 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794475030.501:87283): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794475779.770:86748): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00fd92dd a1=7ffd00fd92fd a2=7ffd00fd931d a3=7ffd00fd933d items=1 ppid=1781 pid=8132 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=6 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794475779.770:86748): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794475779.770:86748): cwd="/home/ops"
+type=PATH msg=audit(1794475779.770:86748): item=0 name="/usr/bin/curl" inode=108132 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794475779.770:86748): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468
+type=SYSCALL msg=audit(1794478639.595:83021): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0065944f a1=7ffd0065946f a2=7ffd0065948f a3=7ffd006594af items=1 ppid=1855 pid=9797 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=22 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794478639.595:83021): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794478639.595:83021): cwd="/home/ops"
+type=PATH msg=audit(1794478639.595:83021): item=0 name="/usr/bin/apt-get" inode=109797 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794478639.595:83021): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794483688.340:82119): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd0017a0cc a1=7ffd0017a0ec a2=7ffd0017a10c a3=7ffd0017a12c items=1 ppid=1111 pid=20838 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=31 comm="logrotate" exe="/usr/sbin/logrotate" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794483688.340:82119): argc=2 a0="/usr/sbin/logrotate" a1="/etc/logrotate.conf"
+type=CWD msg=audit(1794483688.340:82119): cwd="/home/ops"
+type=PATH msg=audit(1794483688.340:82119): item=0 name="/usr/sbin/logrotate" inode=120838 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794483688.340:82119): proctitle=2f7573722f7362696e2f6c6f67726f74617465202f6574632f6c6f67726f746174652e636f6e66
+type=SYSCALL msg=audit(1794485361.164:85886): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a1ff81 a1=7ffd00a1ffa1 a2=7ffd00a1ffc1 a3=7ffd00a1ffe1 items=1 ppid=982 pid=14859 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=39 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="exec"
+type=EXECVE msg=audit(1794485361.164:85886): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794485361.164:85886): cwd="/home/ops"
+type=PATH msg=audit(1794485361.164:85886): item=0 name="/usr/bin/systemctl" inode=114859 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794485361.164:85886): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794487408.562:85661): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00a5ae9e a1=7ffd00a5aebe a2=7ffd00a5aede a3=7ffd00a5aefe items=1 ppid=571 pid=6726 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=19 comm="apt-get" exe="/usr/bin/apt-get" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794487408.562:85661): argc=2 a0="/usr/bin/apt-get" a1="update"
+type=CWD msg=audit(1794487408.562:85661): cwd="/home/ops"
+type=PATH msg=audit(1794487408.562:85661): item=0 name="/usr/bin/apt-get" inode=106726 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794487408.562:85661): proctitle=2f7573722f62696e2f6170742d67657420757064617465
+type=SYSCALL msg=audit(1794496853.643:83803): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00f3975d a1=7ffd00f3977d a2=7ffd00f3979d a3=7ffd00f397bd items=1 ppid=142 pid=12069 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=25 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794496853.643:83803): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794496853.643:83803): cwd="/home/ops"
+type=PATH msg=audit(1794496853.643:83803): item=0 name="/usr/bin/systemctl" inode=112069 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794496853.643:83803): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794499442.525:81847): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00dc0fbb a1=7ffd00dc0fdb a2=7ffd00dc0ffb a3=7ffd00dc101b items=1 ppid=469 pid=19885 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=26 comm="systemctl" exe="/usr/bin/systemctl" subj=unconfined key="pkg-mgmt"
+type=EXECVE msg=audit(1794499442.525:81847): argc=3 a0="/usr/bin/systemctl" a1="restart" a2="nginx"
+type=CWD msg=audit(1794499442.525:81847): cwd="/home/ops"
+type=PATH msg=audit(1794499442.525:81847): item=0 name="/usr/bin/systemctl" inode=119885 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794499442.525:81847): proctitle=2f7573722f62696e2f73797374656d63746c2072657374617274206e67696e78
+type=SYSCALL msg=audit(1794500014.279:89576): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd00649ded a1=7ffd00649e0d a2=7ffd00649e2d a3=7ffd00649e4d items=1 ppid=678 pid=22068 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts/0 ses=37 comm="curl" exe="/usr/bin/curl" subj=unconfined key="priv"
+type=EXECVE msg=audit(1794500014.279:89576): argc=3 a0="/usr/bin/curl" a1="-s" a2="http://repo.corp.example/health"
+type=CWD msg=audit(1794500014.279:89576): cwd="/home/ops"
+type=PATH msg=audit(1794500014.279:89576): item=0 name="/usr/bin/curl" inode=122068 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PROCTITLE msg=audit(1794500014.279:89576): proctitle=2f7573722f62696e2f6375726c202d7320687474703a2f2f7265706f2e636f72702e6578616d706c652f6865616c7468

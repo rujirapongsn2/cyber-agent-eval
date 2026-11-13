@@ -1,0 +1,406 @@
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T17:53:54.474000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":35}\n", "stream": "stdout", "time": "2026-11-08T17:53:54.474000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T17:55:50.088000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":38}\n", "stream": "stdout", "time": "2026-11-08T17:55:50.088000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T18:01:43.458000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-08T18:01:43.458000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T19:23:16.697000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-08T19:23:16.697000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T21:04:07.316000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-08T21:04:07.316000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-08T21:54:34.735000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":679}\n", "stream": "stderr", "time": "2026-11-08T21:54:34.735000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T21:57:03.652000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":12}\n", "stream": "stdout", "time": "2026-11-08T21:57:03.652000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-08T22:03:05.806000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":129}\n", "stream": "stdout", "time": "2026-11-08T22:03:05.806000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-08T22:14:32.487000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-08T22:14:32.487000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-08T22:22:16.204000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":772}\n", "stream": "stdout", "time": "2026-11-08T22:22:16.204000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-08T22:31:25.884000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":449}\n", "stream": "stderr", "time": "2026-11-08T22:31:25.884000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:11:31.273000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-09T00:11:31.273000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T00:12:42.689000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":831}\n", "stream": "stderr", "time": "2026-11-09T00:12:42.689000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:12:54.767000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":54}\n", "stream": "stdout", "time": "2026-11-09T00:12:54.767000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:21:56.229000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":18}\n", "stream": "stdout", "time": "2026-11-09T00:21:56.229000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:25:11.977000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":53}\n", "stream": "stdout", "time": "2026-11-09T00:25:11.977000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:33:12.591000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":30}\n", "stream": "stdout", "time": "2026-11-09T00:33:12.591000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:34:27.170000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":2}\n", "stream": "stdout", "time": "2026-11-09T00:34:27.170000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:44:56.148000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":6}\n", "stream": "stdout", "time": "2026-11-09T00:44:56.148000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T00:52:05.048000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":628}\n", "stream": "stdout", "time": "2026-11-09T00:52:05.048000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T00:59:22.262000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":423}\n", "stream": "stderr", "time": "2026-11-09T00:59:22.262000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T00:59:54.241000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":19}\n", "stream": "stdout", "time": "2026-11-09T00:59:54.241000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T01:02:12.014000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-09T01:02:12.014000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T01:16:14.778000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-09T01:16:14.778000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T01:17:41.137000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":42}\n", "stream": "stdout", "time": "2026-11-09T01:17:41.137000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T01:32:14.157000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":432}\n", "stream": "stdout", "time": "2026-11-09T01:32:14.157000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T01:36:47.882000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":16}\n", "stream": "stdout", "time": "2026-11-09T01:36:47.882000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T01:47:45.826000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":26}\n", "stream": "stdout", "time": "2026-11-09T01:47:45.826000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T01:52:58.568000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":765}\n", "stream": "stdout", "time": "2026-11-09T01:52:58.568000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T02:02:44.697000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":26}\n", "stream": "stdout", "time": "2026-11-09T02:02:44.697000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T02:18:18.780000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":54}\n", "stream": "stdout", "time": "2026-11-09T02:18:18.780000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T02:18:52.802000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":360}\n", "stream": "stderr", "time": "2026-11-09T02:18:52.802000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T02:22:02.973000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-09T02:22:02.973000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T02:24:36.661000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":54}\n", "stream": "stdout", "time": "2026-11-09T02:24:36.661000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T02:40:21.895000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":10}\n", "stream": "stdout", "time": "2026-11-09T02:40:21.895000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T02:53:21.302000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":612}\n", "stream": "stdout", "time": "2026-11-09T02:53:21.302000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T03:13:48.962000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":48}\n", "stream": "stdout", "time": "2026-11-09T03:13:48.962000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T03:24:02.081000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":9}\n", "stream": "stdout", "time": "2026-11-09T03:24:02.081000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T03:30:16.802000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":386}\n", "stream": "stderr", "time": "2026-11-09T03:30:16.802000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T03:32:06.942000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-09T03:32:06.942000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T03:35:52.330000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":4}\n", "stream": "stdout", "time": "2026-11-09T03:35:52.330000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T03:51:17.009000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":822}\n", "stream": "stdout", "time": "2026-11-09T03:51:17.009000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T04:34:53.341000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":685}\n", "stream": "stdout", "time": "2026-11-09T04:34:53.341000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T05:03:10.149000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":57}\n", "stream": "stdout", "time": "2026-11-09T05:03:10.149000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T05:05:21.257000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":477}\n", "stream": "stderr", "time": "2026-11-09T05:05:21.257000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T05:13:04.705000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":601}\n", "stream": "stdout", "time": "2026-11-09T05:13:04.705000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T05:32:15.011000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-09T05:32:15.011000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T05:39:44.173000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":18}\n", "stream": "stdout", "time": "2026-11-09T05:39:44.173000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T05:40:22.932000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":696}\n", "stream": "stdout", "time": "2026-11-09T05:40:22.932000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T05:47:14.521000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-09T05:47:14.521000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T06:01:09.221000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-09T06:01:09.221000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T06:03:22.782000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":182}\n", "stream": "stdout", "time": "2026-11-09T06:03:22.782000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T06:29:02.150000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-09T06:29:02.150000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T06:37:51.823000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":48}\n", "stream": "stdout", "time": "2026-11-09T06:37:51.823000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T07:02:14.391000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-09T07:02:14.391000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T07:02:57.001000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":472}\n", "stream": "stderr", "time": "2026-11-09T07:02:57.001000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T07:03:29.129000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-09T07:03:29.129000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T08:04:06.339000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":49}\n", "stream": "stdout", "time": "2026-11-09T08:04:06.339000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T08:31:23.399000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":6}\n", "stream": "stdout", "time": "2026-11-09T08:31:23.399000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T08:38:57.190000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":11}\n", "stream": "stdout", "time": "2026-11-09T08:38:57.190000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T08:41:31.198000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-09T08:41:31.198000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T08:49:54.641000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":26}\n", "stream": "stdout", "time": "2026-11-09T08:49:54.641000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T09:05:46.665000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":4}\n", "stream": "stdout", "time": "2026-11-09T09:05:46.665000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T09:08:01.164000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-09T09:08:01.164000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T09:26:01.897000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-09T09:26:01.897000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T09:47:03.285000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":9}\n", "stream": "stdout", "time": "2026-11-09T09:47:03.285000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T09:51:29.101000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-09T09:51:29.101000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T10:30:13.582000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":46}\n", "stream": "stdout", "time": "2026-11-09T10:30:13.582000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T10:33:44.404000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":43}\n", "stream": "stdout", "time": "2026-11-09T10:33:44.404000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T10:44:29.051000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":54}\n", "stream": "stdout", "time": "2026-11-09T10:44:29.051000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T10:48:12.698000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":42}\n", "stream": "stdout", "time": "2026-11-09T10:48:12.698000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T10:49:54.994000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":822}\n", "stream": "stdout", "time": "2026-11-09T10:49:54.994000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T10:51:01.872000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":457}\n", "stream": "stdout", "time": "2026-11-09T10:51:01.872000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T10:53:09.618000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":154}\n", "stream": "stderr", "time": "2026-11-09T10:53:09.618000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T11:05:58.094000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":39}\n", "stream": "stdout", "time": "2026-11-09T11:05:58.094000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T11:23:14.305000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":23}\n", "stream": "stdout", "time": "2026-11-09T11:23:14.305000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T11:31:58.780000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":185}\n", "stream": "stdout", "time": "2026-11-09T11:31:58.780000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T11:38:16.929000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":7}\n", "stream": "stdout", "time": "2026-11-09T11:38:16.929000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T11:38:23.341000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-09T11:38:23.341000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:04:05.324000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-09T12:04:05.324000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T12:04:34.065000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":813}\n", "stream": "stderr", "time": "2026-11-09T12:04:34.065000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:13:43.928000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":34}\n", "stream": "stdout", "time": "2026-11-09T12:13:43.928000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:24:58.562000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":33}\n", "stream": "stdout", "time": "2026-11-09T12:24:58.562000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:29:50.683000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":51}\n", "stream": "stdout", "time": "2026-11-09T12:29:50.683000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T12:35:46.508000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":326}\n", "stream": "stdout", "time": "2026-11-09T12:35:46.508000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T12:45:13.123000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":741}\n", "stream": "stderr", "time": "2026-11-09T12:45:13.123000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T12:45:20.333000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":553}\n", "stream": "stdout", "time": "2026-11-09T12:45:20.333000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:45:40.707000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-09T12:45:40.707000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T12:49:07.471000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":32}\n", "stream": "stdout", "time": "2026-11-09T12:49:07.471000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T12:53:32.744000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":707}\n", "stream": "stdout", "time": "2026-11-09T12:53:32.744000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T13:04:01.479000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":25}\n", "stream": "stdout", "time": "2026-11-09T13:04:01.479000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T13:17:46.162000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":74}\n", "stream": "stdout", "time": "2026-11-09T13:17:46.162000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T13:37:53.003000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-09T13:37:53.003000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T13:39:07.159000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":511}\n", "stream": "stderr", "time": "2026-11-09T13:39:07.159000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T14:09:42.882000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-09T14:09:42.882000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T14:23:27.369000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-09T14:23:27.369000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T14:28:07.193000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-09T14:28:07.193000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T15:32:48.349000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-09T15:32:48.349000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T15:34:36.864000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":678}\n", "stream": "stdout", "time": "2026-11-09T15:34:36.864000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T15:50:47.164000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":23}\n", "stream": "stdout", "time": "2026-11-09T15:50:47.164000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T16:58:23.741000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-09T16:58:23.741000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T17:01:21.201000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":177}\n", "stream": "stdout", "time": "2026-11-09T17:01:21.201000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T17:42:39.424000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":516}\n", "stream": "stderr", "time": "2026-11-09T17:42:39.424000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T18:10:38.107000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":41}\n", "stream": "stdout", "time": "2026-11-09T18:10:38.107000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T18:28:21.423000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":736}\n", "stream": "stderr", "time": "2026-11-09T18:28:21.423000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T18:38:11.726000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":389}\n", "stream": "stdout", "time": "2026-11-09T18:38:11.726000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T19:54:08.740000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-09T19:54:08.740000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T19:56:21.169000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-09T19:56:21.169000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T20:07:51.845000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-09T20:07:51.845000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T21:01:22.394000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-09T21:01:22.394000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T21:24:11.672000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-09T21:24:11.672000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T21:32:20.649000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-09T21:32:20.649000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-09T22:11:56.908000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":38}\n", "stream": "stdout", "time": "2026-11-09T22:11:56.908000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-09T22:24:09.428000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":894}\n", "stream": "stdout", "time": "2026-11-09T22:24:09.428000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-09T22:38:29.461000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":853}\n", "stream": "stderr", "time": "2026-11-09T22:38:29.461000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:02:05.245000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-10T00:02:05.245000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:03:40.332000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":46}\n", "stream": "stdout", "time": "2026-11-10T00:03:40.332000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:05:23.402000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-10T00:05:23.402000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:13:03.494000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-10T00:13:03.494000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:30:39.460000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-10T00:30:39.460000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:36:32.614000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-10T00:36:32.614000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T00:45:00.770000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":273}\n", "stream": "stdout", "time": "2026-11-10T00:45:00.770000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T00:46:58.346000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":742}\n", "stream": "stdout", "time": "2026-11-10T00:46:58.346000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T00:48:31.484000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":132}\n", "stream": "stderr", "time": "2026-11-10T00:48:31.484000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T00:52:29.787000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":197}\n", "stream": "stdout", "time": "2026-11-10T00:52:29.787000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T00:52:45.761000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":49}\n", "stream": "stdout", "time": "2026-11-10T00:52:45.761000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T00:54:23.038000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":780}\n", "stream": "stderr", "time": "2026-11-10T00:54:23.038000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T00:59:55.032000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":572}\n", "stream": "stdout", "time": "2026-11-10T00:59:55.032000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T01:00:08.024000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":31}\n", "stream": "stdout", "time": "2026-11-10T01:00:08.024000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T01:02:44.897000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":736}\n", "stream": "stdout", "time": "2026-11-10T01:02:44.897000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T01:30:43.431000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-10T01:30:43.431000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T02:12:00.300000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":2}\n", "stream": "stdout", "time": "2026-11-10T02:12:00.300000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T02:21:41.526000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":52}\n", "stream": "stdout", "time": "2026-11-10T02:21:41.526000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T02:37:29.826000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":23}\n", "stream": "stdout", "time": "2026-11-10T02:37:29.826000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T02:47:23.168000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-10T02:47:23.168000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T02:55:37.326000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":36}\n", "stream": "stdout", "time": "2026-11-10T02:55:37.326000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T03:01:39.065000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":633}\n", "stream": "stdout", "time": "2026-11-10T03:01:39.065000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T03:16:43.468000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":505}\n", "stream": "stdout", "time": "2026-11-10T03:16:43.468000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T03:33:49.370000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":41}\n", "stream": "stdout", "time": "2026-11-10T03:33:49.370000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T03:45:32.446000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":470}\n", "stream": "stderr", "time": "2026-11-10T03:45:32.446000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T03:51:35.141000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":16}\n", "stream": "stdout", "time": "2026-11-10T03:51:35.141000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T03:53:41.272000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-10T03:53:41.272000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T04:03:23.619000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-10T04:03:23.619000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T04:06:05.058000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":37}\n", "stream": "stdout", "time": "2026-11-10T04:06:05.058000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T04:20:50.798000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":41}\n", "stream": "stdout", "time": "2026-11-10T04:20:50.798000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T04:46:27.674000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-10T04:46:27.674000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T04:53:01.785000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-10T04:53:01.785000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T05:37:03.513000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":2}\n", "stream": "stdout", "time": "2026-11-10T05:37:03.513000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T05:39:59.773000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":761}\n", "stream": "stdout", "time": "2026-11-10T05:39:59.773000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T05:52:31.014000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":4}\n", "stream": "stdout", "time": "2026-11-10T05:52:31.014000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:08:33.193000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-10T06:08:33.193000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:13:31.731000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":60}\n", "stream": "stdout", "time": "2026-11-10T06:13:31.731000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:14:16.815000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":32}\n", "stream": "stdout", "time": "2026-11-10T06:14:16.815000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:14:34.135000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":48}\n", "stream": "stdout", "time": "2026-11-10T06:14:34.135000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T06:20:04.050000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":3}\n", "stream": "stdout", "time": "2026-11-10T06:20:04.050000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:26:39.263000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":34}\n", "stream": "stdout", "time": "2026-11-10T06:26:39.263000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:38:09.057000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":32}\n", "stream": "stdout", "time": "2026-11-10T06:38:09.057000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T06:39:45.854000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":650}\n", "stream": "stdout", "time": "2026-11-10T06:39:45.854000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T06:42:03.385000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":264}\n", "stream": "stdout", "time": "2026-11-10T06:42:03.385000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T06:42:34.169000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":836}\n", "stream": "stdout", "time": "2026-11-10T06:42:34.169000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T06:46:33.685000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":5}\n", "stream": "stdout", "time": "2026-11-10T06:46:33.685000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T07:06:27.907000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":719}\n", "stream": "stdout", "time": "2026-11-10T07:06:27.907000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:28:06.982000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":25}\n", "stream": "stdout", "time": "2026-11-10T07:28:06.982000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:28:54.382000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-10T07:28:54.382000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T07:32:09.842000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":740}\n", "stream": "stdout", "time": "2026-11-10T07:32:09.842000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:32:14.388000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":49}\n", "stream": "stdout", "time": "2026-11-10T07:32:14.388000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:39:51.418000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":39}\n", "stream": "stdout", "time": "2026-11-10T07:39:51.418000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:44:39.255000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-10T07:44:39.255000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:52:32.043000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":45}\n", "stream": "stdout", "time": "2026-11-10T07:52:32.043000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T07:56:58.797000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":60}\n", "stream": "stdout", "time": "2026-11-10T07:56:58.797000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T08:23:36.511000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":7}\n", "stream": "stdout", "time": "2026-11-10T08:23:36.511000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T08:24:16.964000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":407}\n", "stream": "stdout", "time": "2026-11-10T08:24:16.964000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T08:28:27.600000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":178}\n", "stream": "stdout", "time": "2026-11-10T08:28:27.600000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T08:29:58.707000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":713}\n", "stream": "stderr", "time": "2026-11-10T08:29:58.707000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T08:38:31.637000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":624}\n", "stream": "stdout", "time": "2026-11-10T08:38:31.637000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T09:26:37.520000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":282}\n", "stream": "stdout", "time": "2026-11-10T09:26:37.520000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T09:29:54.510000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":226}\n", "stream": "stdout", "time": "2026-11-10T09:29:54.510000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T09:40:06.342000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-10T09:40:06.342000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T09:46:36.661000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":544}\n", "stream": "stderr", "time": "2026-11-10T09:46:36.661000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T09:55:04.438000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":25}\n", "stream": "stdout", "time": "2026-11-10T09:55:04.438000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T10:02:09.409000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":338}\n", "stream": "stdout", "time": "2026-11-10T10:02:09.409000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T10:23:02.607000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":11}\n", "stream": "stdout", "time": "2026-11-10T10:23:02.607000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T10:26:48.132000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":57}\n", "stream": "stdout", "time": "2026-11-10T10:26:48.132000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T10:32:25.625000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":36}\n", "stream": "stdout", "time": "2026-11-10T10:32:25.625000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T10:40:28.469000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":19}\n", "stream": "stdout", "time": "2026-11-10T10:40:28.469000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T10:53:42.538000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":49}\n", "stream": "stdout", "time": "2026-11-10T10:53:42.538000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T11:01:16.030000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":46}\n", "stream": "stderr", "time": "2026-11-10T11:01:16.030000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T11:17:01.032000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-10T11:17:01.032000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T11:38:53.359000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":371}\n", "stream": "stdout", "time": "2026-11-10T11:38:53.359000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T11:46:35.699000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":46}\n", "stream": "stdout", "time": "2026-11-10T11:46:35.699000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T12:29:18.379000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-10T12:29:18.379000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T12:39:12.101000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-10T12:39:12.101000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T12:42:24.218000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":86}\n", "stream": "stdout", "time": "2026-11-10T12:42:24.218000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T13:20:43.147000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-10T13:20:43.147000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T13:45:49.760000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":594}\n", "stream": "stdout", "time": "2026-11-10T13:45:49.760000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T13:58:34.176000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-10T13:58:34.176000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T14:05:53.217000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":748}\n", "stream": "stdout", "time": "2026-11-10T14:05:53.217000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T14:20:05.270000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":286}\n", "stream": "stdout", "time": "2026-11-10T14:20:05.270000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T14:29:28.626000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":10}\n", "stream": "stdout", "time": "2026-11-10T14:29:28.626000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T14:51:18.467000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":890}\n", "stream": "stdout", "time": "2026-11-10T14:51:18.467000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T15:02:57.956000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":58}\n", "stream": "stdout", "time": "2026-11-10T15:02:57.956000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T15:03:56.371000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-10T15:03:56.371000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T15:04:58.055000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":91}\n", "stream": "stderr", "time": "2026-11-10T15:04:58.055000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T15:08:17.085000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":140}\n", "stream": "stdout", "time": "2026-11-10T15:08:17.085000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T15:10:13.424000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":206}\n", "stream": "stderr", "time": "2026-11-10T15:10:13.424000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T15:59:18.247000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-10T15:59:18.247000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T16:41:07.454000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":60}\n", "stream": "stdout", "time": "2026-11-10T16:41:07.454000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T16:46:24.554000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-10T16:46:24.554000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T17:14:17.424000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":135}\n", "stream": "stdout", "time": "2026-11-10T17:14:17.424000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T19:15:58.582000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":573}\n", "stream": "stderr", "time": "2026-11-10T19:15:58.582000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T19:31:23.209000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":313}\n", "stream": "stdout", "time": "2026-11-10T19:31:23.209000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T19:54:42.070000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":54}\n", "stream": "stdout", "time": "2026-11-10T19:54:42.070000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T21:12:54.709000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":625}\n", "stream": "stdout", "time": "2026-11-10T21:12:54.709000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-10T21:14:15.940000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":394}\n", "stream": "stdout", "time": "2026-11-10T21:14:15.940000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T21:35:36.163000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-10T21:35:36.163000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-10T21:35:54.035000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":657}\n", "stream": "stderr", "time": "2026-11-10T21:35:54.035000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T21:45:39.720000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":38}\n", "stream": "stdout", "time": "2026-11-10T21:45:39.720000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T22:08:56.565000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":33}\n", "stream": "stdout", "time": "2026-11-10T22:08:56.565000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T22:15:44.115000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":3}\n", "stream": "stdout", "time": "2026-11-10T22:15:44.115000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T22:32:55.809000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-10T22:32:55.809000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-10T23:02:32.101000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":60}\n", "stream": "stdout", "time": "2026-11-10T23:02:32.101000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T00:18:00.463000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":12}\n", "stream": "stdout", "time": "2026-11-11T00:18:00.463000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T01:16:54.928000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":813}\n", "stream": "stdout", "time": "2026-11-11T01:16:54.928000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T01:43:08.445000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":371}\n", "stream": "stderr", "time": "2026-11-11T01:43:08.445000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:01:33.269000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":51}\n", "stream": "stdout", "time": "2026-11-11T02:01:33.269000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:08:45.107000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":17}\n", "stream": "stdout", "time": "2026-11-11T02:08:45.107000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:25:32.563000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-11T02:25:32.563000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T02:30:19.866000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":502}\n", "stream": "stdout", "time": "2026-11-11T02:30:19.866000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:31:35.921000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-11T02:31:35.921000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:31:38.278000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":5}\n", "stream": "stdout", "time": "2026-11-11T02:31:38.278000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:52:21.306000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":46}\n", "stream": "stdout", "time": "2026-11-11T02:52:21.306000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T02:57:24.957000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":36}\n", "stream": "stdout", "time": "2026-11-11T02:57:24.957000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T03:02:41.035000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":31}\n", "stream": "stdout", "time": "2026-11-11T03:02:41.035000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T03:08:48.268000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":132}\n", "stream": "stdout", "time": "2026-11-11T03:08:48.268000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T03:10:12.713000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":38}\n", "stream": "stdout", "time": "2026-11-11T03:10:12.713000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T03:40:07.403000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-11T03:40:07.403000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:05:39.294000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-11T04:05:39.294000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:07:17.429000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":59}\n", "stream": "stdout", "time": "2026-11-11T04:07:17.429000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:14:59.060000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":9}\n", "stream": "stdout", "time": "2026-11-11T04:14:59.060000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:21:25.882000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":36}\n", "stream": "stdout", "time": "2026-11-11T04:21:25.882000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T04:25:38.648000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":429}\n", "stream": "stderr", "time": "2026-11-11T04:25:38.648000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:28:34.552000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":57}\n", "stream": "stdout", "time": "2026-11-11T04:28:34.552000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:29:57.840000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":37}\n", "stream": "stdout", "time": "2026-11-11T04:29:57.840000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T04:30:55.027000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":361}\n", "stream": "stdout", "time": "2026-11-11T04:30:55.027000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T04:42:43.255000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":37}\n", "stream": "stdout", "time": "2026-11-11T04:42:43.255000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T05:31:16.205000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":39}\n", "stream": "stdout", "time": "2026-11-11T05:31:16.205000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T05:39:43.063000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-11T05:39:43.063000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T05:41:05.761000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-11T05:41:05.761000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T05:46:39.396000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":32}\n", "stream": "stdout", "time": "2026-11-11T05:46:39.396000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T06:14:21.645000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-11T06:14:21.645000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T06:17:13.848000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-11T06:17:13.848000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T06:21:28.948000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":73}\n", "stream": "stdout", "time": "2026-11-11T06:21:28.948000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T06:22:55.479000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":50}\n", "stream": "stdout", "time": "2026-11-11T06:22:55.479000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T06:25:39.589000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":361}\n", "stream": "stdout", "time": "2026-11-11T06:25:39.589000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T06:46:56.549000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":762}\n", "stream": "stderr", "time": "2026-11-11T06:46:56.549000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T06:53:43.721000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-11T06:53:43.721000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T06:54:16.504000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":68}\n", "stream": "stdout", "time": "2026-11-11T06:54:16.504000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T07:09:07.044000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":46}\n", "stream": "stdout", "time": "2026-11-11T07:09:07.044000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T07:37:22.396000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":786}\n", "stream": "stdout", "time": "2026-11-11T07:37:22.396000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T07:44:07.994000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":769}\n", "stream": "stdout", "time": "2026-11-11T07:44:07.994000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T07:51:34.018000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":542}\n", "stream": "stdout", "time": "2026-11-11T07:51:34.018000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T07:55:18.422000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":25}\n", "stream": "stdout", "time": "2026-11-11T07:55:18.422000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T07:56:22.542000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":7}\n", "stream": "stdout", "time": "2026-11-11T07:56:22.542000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T08:28:35.862000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":42}\n", "stream": "stdout", "time": "2026-11-11T08:28:35.862000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T08:40:56.759000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":890}\n", "stream": "stdout", "time": "2026-11-11T08:40:56.759000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T08:43:09.247000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-11T08:43:09.247000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T08:56:56.084000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":755}\n", "stream": "stderr", "time": "2026-11-11T08:56:56.084000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T09:51:09.197000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":44}\n", "stream": "stdout", "time": "2026-11-11T09:51:09.197000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:00:31.493000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":17}\n", "stream": "stdout", "time": "2026-11-11T10:00:31.493000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:11:45.592000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-11T10:11:45.592000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:12:04.918000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":4}\n", "stream": "stdout", "time": "2026-11-11T10:12:04.918000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T10:17:17.902000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":111}\n", "stream": "stderr", "time": "2026-11-11T10:17:17.902000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:28:24.080000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-11T10:28:24.080000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:30:48.047000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":3}\n", "stream": "stdout", "time": "2026-11-11T10:30:48.047000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:40:42.898000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":15}\n", "stream": "stdout", "time": "2026-11-11T10:40:42.898000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:44:30.920000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":24}\n", "stream": "stdout", "time": "2026-11-11T10:44:30.920000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T10:50:12.491000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":19}\n", "stream": "stdout", "time": "2026-11-11T10:50:12.491000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T11:08:25.992000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":241}\n", "stream": "stderr", "time": "2026-11-11T11:08:25.992000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T11:14:41.618000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":23}\n", "stream": "stdout", "time": "2026-11-11T11:14:41.618000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T11:34:56.993000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-11T11:34:56.993000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T11:37:08.919000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":32}\n", "stream": "stdout", "time": "2026-11-11T11:37:08.919000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T11:39:24.604000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":17}\n", "stream": "stdout", "time": "2026-11-11T11:39:24.604000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T12:14:30.096000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":11}\n", "stream": "stdout", "time": "2026-11-11T12:14:30.096000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T12:44:51.476000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-11T12:44:51.476000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T12:48:18.665000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":35}\n", "stream": "stdout", "time": "2026-11-11T12:48:18.665000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T12:52:21.033000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":37}\n", "stream": "stdout", "time": "2026-11-11T12:52:21.033000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T13:17:38.711000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-11T13:17:38.711000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T14:29:56.459000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":232}\n", "stream": "stdout", "time": "2026-11-11T14:29:56.459000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T14:30:53.256000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":33}\n", "stream": "stdout", "time": "2026-11-11T14:30:53.256000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T14:37:57.213000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":391}\n", "stream": "stdout", "time": "2026-11-11T14:37:57.213000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T15:31:01.665000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-11T15:31:01.665000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T15:31:47.513000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-11T15:31:47.513000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T15:34:17.148000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-11T15:34:17.148000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T15:42:37.814000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":731}\n", "stream": "stderr", "time": "2026-11-11T15:42:37.814000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T15:56:16.705000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":11}\n", "stream": "stdout", "time": "2026-11-11T15:56:16.705000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T16:12:00.060000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":52}\n", "stream": "stdout", "time": "2026-11-11T16:12:00.060000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-11T17:09:50.534000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":64}\n", "stream": "stderr", "time": "2026-11-11T17:09:50.534000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T17:09:54.569000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-11T17:09:54.569000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T17:37:45.330000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-11T17:37:45.330000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T17:55:29.734000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":270}\n", "stream": "stdout", "time": "2026-11-11T17:55:29.734000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-11T18:09:15.873000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":299}\n", "stream": "stdout", "time": "2026-11-11T18:09:15.873000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T18:33:22.140000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":27}\n", "stream": "stdout", "time": "2026-11-11T18:33:22.140000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T19:36:19.827000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-11T19:36:19.827000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T21:41:58.898000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":57}\n", "stream": "stdout", "time": "2026-11-11T21:41:58.898000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T21:50:06.211000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":10}\n", "stream": "stdout", "time": "2026-11-11T21:50:06.211000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T22:10:19.098000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":43}\n", "stream": "stdout", "time": "2026-11-11T22:10:19.098000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T23:45:40.746000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":14}\n", "stream": "stdout", "time": "2026-11-11T23:45:40.746000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-11T23:46:34.000000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-11T23:46:34.000000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T00:13:52.938000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":190}\n", "stream": "stdout", "time": "2026-11-12T00:13:52.938000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T00:16:00.564000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":33}\n", "stream": "stdout", "time": "2026-11-12T00:16:00.564000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T00:27:57.976000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":38}\n", "stream": "stdout", "time": "2026-11-12T00:27:57.976000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T00:40:48.629000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":844}\n", "stream": "stdout", "time": "2026-11-12T00:40:48.629000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T00:41:16.580000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":58}\n", "stream": "stdout", "time": "2026-11-12T00:41:16.580000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T00:48:38.520000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":229}\n", "stream": "stdout", "time": "2026-11-12T00:48:38.520000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T00:58:13.279000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":346}\n", "stream": "stdout", "time": "2026-11-12T00:58:13.279000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T01:02:56.182000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":19}\n", "stream": "stdout", "time": "2026-11-12T01:02:56.182000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T01:07:12.703000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":614}\n", "stream": "stdout", "time": "2026-11-12T01:07:12.703000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T01:16:27.921000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-12T01:16:27.921000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T01:21:05.484000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":67}\n", "stream": "stdout", "time": "2026-11-12T01:21:05.484000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T01:32:07.812000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":53}\n", "stream": "stdout", "time": "2026-11-12T01:32:07.812000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T01:54:28.340000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":9}\n", "stream": "stdout", "time": "2026-11-12T01:54:28.340000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T01:59:21.567000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-12T01:59:21.567000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:00:47.014000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":37}\n", "stream": "stdout", "time": "2026-11-12T02:00:47.014000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:03:18.061000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":24}\n", "stream": "stdout", "time": "2026-11-12T02:03:18.061000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T02:11:29.830000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":680}\n", "stream": "stdout", "time": "2026-11-12T02:11:29.830000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:12:54.160000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":4}\n", "stream": "stdout", "time": "2026-11-12T02:12:54.160000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T02:14:21.285000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":494}\n", "stream": "stdout", "time": "2026-11-12T02:14:21.285000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:26:37.857000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-12T02:26:37.857000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:27:13.165000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":17}\n", "stream": "stdout", "time": "2026-11-12T02:27:13.165000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:32:10.783000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":6}\n", "stream": "stdout", "time": "2026-11-12T02:32:10.783000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:42:52.278000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-12T02:42:52.278000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T02:42:53.535000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-12T02:42:53.535000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T02:52:39.284000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":69}\n", "stream": "stdout", "time": "2026-11-12T02:52:39.284000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T03:07:08.373000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-12T03:07:08.373000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T03:08:35.190000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":744}\n", "stream": "stderr", "time": "2026-11-12T03:08:35.190000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T03:19:59.833000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":21}\n", "stream": "stdout", "time": "2026-11-12T03:19:59.833000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T03:45:47.718000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":35}\n", "stream": "stdout", "time": "2026-11-12T03:45:47.718000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T03:48:10.618000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":42}\n", "stream": "stdout", "time": "2026-11-12T03:48:10.618000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T04:11:51.655000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":56}\n", "stream": "stdout", "time": "2026-11-12T04:11:51.655000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T04:20:03.991000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-12T04:20:03.991000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T04:23:13.071000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-12T04:23:13.071000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T04:30:32.667000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":33}\n", "stream": "stdout", "time": "2026-11-12T04:30:32.667000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T05:13:37.948000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-12T05:13:37.948000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T05:18:30.619000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":56}\n", "stream": "stderr", "time": "2026-11-12T05:18:30.619000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T05:31:24.121000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":41}\n", "stream": "stdout", "time": "2026-11-12T05:31:24.121000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T05:36:29.820000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":14}\n", "stream": "stderr", "time": "2026-11-12T05:36:29.820000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T05:39:15.196000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":30}\n", "stream": "stdout", "time": "2026-11-12T05:39:15.196000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T06:04:28.093000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-12T06:04:28.093000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T06:07:46.464000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":892}\n", "stream": "stdout", "time": "2026-11-12T06:07:46.464000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T06:09:46.290000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":22}\n", "stream": "stdout", "time": "2026-11-12T06:09:46.290000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T06:40:14.921000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":47}\n", "stream": "stdout", "time": "2026-11-12T06:40:14.921000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T06:48:06.614000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":40}\n", "stream": "stdout", "time": "2026-11-12T06:48:06.614000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T07:03:41.240000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":8}\n", "stream": "stdout", "time": "2026-11-12T07:03:41.240000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T07:34:45.080000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":50}\n", "stream": "stdout", "time": "2026-11-12T07:34:45.080000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T07:42:19.995000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":364}\n", "stream": "stdout", "time": "2026-11-12T07:42:19.995000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T07:54:02.584000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":20}\n", "stream": "stdout", "time": "2026-11-12T07:54:02.584000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:00:05.036000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":34}\n", "stream": "stdout", "time": "2026-11-12T08:00:05.036000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:01:41.170000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":1}\n", "stream": "stdout", "time": "2026-11-12T08:01:41.170000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:02:57.821000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":58}\n", "stream": "stdout", "time": "2026-11-12T08:02:57.821000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:15:10.089000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":36}\n", "stream": "stdout", "time": "2026-11-12T08:15:10.089000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:23:38.901000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":42}\n", "stream": "stdout", "time": "2026-11-12T08:23:38.901000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T08:34:15.463000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":470}\n", "stream": "stdout", "time": "2026-11-12T08:34:15.463000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T08:48:11.491000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":53}\n", "stream": "stdout", "time": "2026-11-12T08:48:11.491000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T08:56:53.090000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":365}\n", "stream": "stdout", "time": "2026-11-12T08:56:53.090000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:04:16.217000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":59}\n", "stream": "stdout", "time": "2026-11-12T09:04:16.217000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:06:51.968000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":34}\n", "stream": "stdout", "time": "2026-11-12T09:06:51.968000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T09:08:37.572000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":226}\n", "stream": "stdout", "time": "2026-11-12T09:08:37.572000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T09:16:25.884000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":419}\n", "stream": "stdout", "time": "2026-11-12T09:16:25.884000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T09:21:41.972000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":130}\n", "stream": "stdout", "time": "2026-11-12T09:21:41.972000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:29:25.703000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":23}\n", "stream": "stdout", "time": "2026-11-12T09:29:25.703000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:32:09.888000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":55}\n", "stream": "stdout", "time": "2026-11-12T09:32:09.888000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:36:53.189000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":18}\n", "stream": "stdout", "time": "2026-11-12T09:36:53.189000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:45:34.374000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":43}\n", "stream": "stdout", "time": "2026-11-12T09:45:34.374000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T09:50:41.535000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":60}\n", "stream": "stdout", "time": "2026-11-12T09:50:41.535000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T10:00:37.286000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":866}\n", "stream": "stderr", "time": "2026-11-12T10:00:37.286000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T10:00:46.035000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":426}\n", "stream": "stderr", "time": "2026-11-12T10:00:46.035000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T10:31:38.383000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":253}\n", "stream": "stdout", "time": "2026-11-12T10:31:38.383000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T10:50:08.974000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":16}\n", "stream": "stdout", "time": "2026-11-12T10:50:08.974000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:13:06.499000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":12}\n", "stream": "stdout", "time": "2026-11-12T11:13:06.499000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T11:23:10.162000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":713}\n", "stream": "stdout", "time": "2026-11-12T11:23:10.162000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:29:57.546000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":52}\n", "stream": "stdout", "time": "2026-11-12T11:29:57.546000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:30:40.826000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":16}\n", "stream": "stdout", "time": "2026-11-12T11:30:40.826000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:36:08.260000Z\",\"msg\":\"POST /api/v1/refunds 202\",\"latency_ms\":10}\n", "stream": "stdout", "time": "2026-11-12T11:36:08.260000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:40:22.975000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-12T11:40:22.975000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T11:45:31.189000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":59}\n", "stream": "stdout", "time": "2026-11-12T11:45:31.189000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T11:59:51.179000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":677}\n", "stream": "stdout", "time": "2026-11-12T11:59:51.179000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T12:10:23.777000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":166}\n", "stream": "stdout", "time": "2026-11-12T12:10:23.777000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T12:11:03.574000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":333}\n", "stream": "stdout", "time": "2026-11-12T12:11:03.574000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T12:15:54.526000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":29}\n", "stream": "stdout", "time": "2026-11-12T12:15:54.526000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T12:19:42.604000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":295}\n", "stream": "stdout", "time": "2026-11-12T12:19:42.604000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T12:23:45.400000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":48}\n", "stream": "stdout", "time": "2026-11-12T12:23:45.400000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T12:27:48.150000Z\",\"msg\":\"GET /metrics 200\",\"latency_ms\":26}\n", "stream": "stdout", "time": "2026-11-12T12:27:48.150000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T12:28:28.329000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":40}\n", "stream": "stderr", "time": "2026-11-12T12:28:28.329000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T12:39:07.682000Z\",\"msg\":\"GET /healthz 200\",\"latency_ms\":13}\n", "stream": "stdout", "time": "2026-11-12T12:39:07.682000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T12:57:04.334000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":41}\n", "stream": "stdout", "time": "2026-11-12T12:57:04.334000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T13:14:29.748000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":35}\n", "stream": "stdout", "time": "2026-11-12T13:14:29.748000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T14:12:20.514000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":51}\n", "stream": "stdout", "time": "2026-11-12T14:12:20.514000000Z"}
+{"log": "{\"level\":\"error\",\"ts\":\"2026-11-12T14:48:56.232000Z\",\"msg\":\"upstream timeout calling fraud-score\",\"latency_ms\":76}\n", "stream": "stderr", "time": "2026-11-12T14:48:56.232000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T15:03:50.697000Z\",\"msg\":\"slow query on payments_ledger\",\"latency_ms\":286}\n", "stream": "stdout", "time": "2026-11-12T15:03:50.697000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T15:19:55.749000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":18}\n", "stream": "stdout", "time": "2026-11-12T15:19:55.749000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T15:39:54.129000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":10}\n", "stream": "stdout", "time": "2026-11-12T15:39:54.129000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T15:40:53.985000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":673}\n", "stream": "stdout", "time": "2026-11-12T15:40:53.985000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T15:50:01.285000Z\",\"msg\":\"GET /api/v1/payments/{id} 200\",\"latency_ms\":48}\n", "stream": "stdout", "time": "2026-11-12T15:50:01.285000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T15:50:52.846000Z\",\"msg\":\"POST /api/v1/payments 201\",\"latency_ms\":14}\n", "stream": "stdout", "time": "2026-11-12T15:50:52.846000000Z"}
+{"log": "{\"level\":\"info\",\"ts\":\"2026-11-12T16:00:07.325000Z\",\"msg\":\"cache refresh complete\",\"latency_ms\":50}\n", "stream": "stdout", "time": "2026-11-12T16:00:07.325000000Z"}
+{"log": "{\"level\":\"warn\",\"ts\":\"2026-11-12T16:08:54.929000Z\",\"msg\":\"retrying kafka produce\",\"latency_ms\":28}\n", "stream": "stdout", "time": "2026-11-12T16:08:54.929000000Z"}
